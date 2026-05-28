@@ -3,7 +3,7 @@ import pandas as pd
 
 # Read data and display head
 print("Reading raw data...")
-raw_data = pd.read_excel("CPM-matrix_Tony.xlsx")
+raw_data = pd.read_excel("cpm_matrix_raw.xlsx")
 
 print("Cleaning...")
 # Find gene_id for target gene SNHG14
