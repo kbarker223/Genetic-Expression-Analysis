@@ -20,7 +20,7 @@ gcloud dataproc clusters create mycluster \
     --image-version 2.1-debian11 \
     --initialization-actions \
     gs://dataproc-initialization-actions/python/pip-install.sh \
-    --metadata 'PIP_PACKAGES=google-cloud-storage' \
+    --metadata 'PIP_PACKAGES=google-cloud-storage scikit-learn pandas' \
     --enable-component-gateway \
     --max-idle 7200s --max-age 18000s
 
@@ -34,12 +34,18 @@ gcloud compute ssh mycluster-m \
     --zone=us-central1-a \
     -- -L 127.0.0.1:8890:localhost:8123 -N
 
+## For Kai on Windows
+gcloud compute ssh mycluster-m --project=gene-expression-big-data --zone=us-central1-a -- -L 127.0.0.1:8890:localhost:8123 -N
+
 
 # -------------------------------------------------------------
 # 3. VERIFY TUNNEL (run in a second LOCAL terminal)
 #    Should return HTML — if "connection refused", tunnel isn't up
 # -------------------------------------------------------------
 curl http://127.0.0.1:8890/gateway/default/jupyter
+
+# for kai
+http://localhost:8890/gateway/default/jupyter/lab
 
 
 # -------------------------------------------------------------
@@ -80,3 +86,5 @@ curl http://127.0.0.1:8890/gateway/default/jupyter
 # - To back up notebook to GCS:
 #     gsutil cp my_notebook.ipynb gs://gene_datasets/
 # -------------------------------------------------------------
+
+
