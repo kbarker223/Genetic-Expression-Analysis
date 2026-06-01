@@ -38,7 +38,7 @@ gcloud compute ssh mycluster-m \
     -- -L 127.0.0.1:8890:localhost:8123 -N
 
 ## For Kai on Windows
-gcloud compute ssh my-cluster-2 --project=gene-expression-big-data --zone=us-central1-a -- -L 127.0.0.1:8890:localhost:8123 -N
+gcloud compute ssh mycluster-2-m --project=gene-expression-big-data --zone=us-central1-a -- -L 127.0.0.1:8890:localhost:8123 -N
 
 
 # -------------------------------------------------------------
