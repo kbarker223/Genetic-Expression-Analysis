@@ -118,14 +118,17 @@ def get_top_disturbed_genes(treatment, sbg_df, ge_df, da_df, n=10):
 # ---------------------------------------------------------------------------
 
 pca_df = load_pca_summary()
-sbg_df = load_sample_by_gene()
-ge_df = load_expression()
-da_df = load_disease_associations()
+# sbg_df = load_sample_by_gene()
+# ge_df = load_expression()
+# da_df = load_disease_associations()
 
-with st.spinner("Computing risk table…"):
-    risk_df = compute_risk_table(pca_df, sbg_df, da_df)
+# with st.spinner("Computing risk table…"):
+#     risk_df = compute_risk_table(pca_df, sbg_df, da_df)
+risk_df = None
 
-treatments = sorted(risk_df["treatment"].tolist())
+treatments = sorted(
+    pca_df[~pca_df["sample_type"].isin(["Control", "Base"])]["sample_type"].tolist()
+)
 
 # Initialize session state
 if "selected_treatment" not in st.session_state:
@@ -154,10 +157,6 @@ if page == "Pareto Plot":
     st.title("Pareto Plot — Efficacy vs Off-Target Burden")
 
     plot_df = pca_df[~pca_df["sample_type"].isin(["Control", "Base"])].copy()
-    plot_df = plot_df.merge(
-        risk_df[["treatment", "composite_risk"]],
-        left_on="sample_type", right_on="treatment", how="left",
-    )
 
     fig = px.scatter(
         plot_df,
@@ -170,7 +169,6 @@ if page == "Pareto Plot":
             "log2FC": ":.3f",
             "mean_dist": ":.1f",
             "std_dist": ":.1f",
-            "composite_risk": ":.3f",
             "pareto_optimal": True,
         },
         labels={
@@ -208,46 +206,12 @@ elif page == "Treatment Drilldown":
     st.title(f"Treatment Drilldown — {tx}")
 
     pca_row = pca_df[pca_df["sample_type"] == tx].iloc[0]
-    risk_row = risk_df[risk_df["treatment"] == tx].iloc[0]
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2 = st.columns(2)
     col1.metric("SNHG14 log₂FC", f"{pca_row['log2FC']:.3f}")
     col2.metric("PCA distance (mean ± std)", f"{pca_row['mean_dist']:.1f} ± {pca_row['std_dist']:.1f}")
-    col3.metric("Disturbed genes (|log₂FC|>1)", f"{risk_row['breadth']:,}")
-    col4.metric("Composite risk score", f"{risk_row['composite_risk']:.3f}")
 
-    col5, col6 = st.columns(2)
-    col5.metric("Evidence-weighted burden", f"{risk_row['evidence_burden']:.3f}")
-    col6.metric("High-confidence perturbations", f"{risk_row['high_conf_perturbations']:,}")
-
-    st.subheader("Top disturbed disease-linked genes")
-    with st.spinner("Loading gene data…"):
-        top_genes = get_top_disturbed_genes(tx, sbg_df, ge_df, da_df, n=10)
-
-    if top_genes.empty:
-        st.info("No disease-linked disturbed genes found for this treatment.")
-    else:
-        fig = px.bar(
-            top_genes,
-            x="log2FC",
-            y="gene_name",
-            orientation="h",
-            color="log2FC",
-            color_continuous_scale="RdBu_r",
-            hover_data={"gene_id": True, "association_score": ":.3f"},
-            labels={"log2FC": "log₂FC vs Control", "gene_name": "Gene"},
-        )
-        fig.update_layout(yaxis={"categoryorder": "total ascending"}, coloraxis_showscale=False)
-        st.plotly_chart(fig, use_container_width=True)
-
-        st.dataframe(
-            top_genes[["gene_name", "gene_id", "log2FC", "association_score"]].rename(columns={
-                "gene_name": "Gene", "gene_id": "Ensembl ID",
-                "log2FC": "log₂FC", "association_score": "Max disease association score",
-            }),
-            hide_index=True,
-            use_container_width=True,
-        )
+    st.info("Risk table metrics and top disturbed genes are currently disabled.")
 
 # ---------------------------------------------------------------------------
 # Page: Risk Ranking
@@ -255,52 +219,4 @@ elif page == "Treatment Drilldown":
 
 elif page == "Risk Ranking":
     st.title("Risk Ranking — All Treatments")
-
-    display_df = risk_df.copy()
-    display_df["pareto_label"] = display_df["pareto_optimal"].map({True: "Pareto optimal", False: "Non-Pareto"})
-
-    fig = px.bar(
-        display_df,
-        x="composite_risk",
-        y="treatment",
-        orientation="h",
-        color="pareto_label",
-        color_discrete_map={"Pareto optimal": "#e63946", "Non-Pareto": "#457b9d"},
-        hover_data={
-            "breadth": True,
-            "evidence_burden": ":.3f",
-            "high_conf_perturbations": True,
-            "therapeutic_area_coverage": True,
-            "log2FC_SNHG14": ":.3f",
-            "composite_rank": True,
-            "pareto_label": False,
-        },
-        labels={"composite_risk": "Composite risk score", "treatment": "Treatment"},
-    )
-    fig.update_layout(
-        yaxis={"categoryorder": "total ascending"},
-        legend_title_text="",
-    )
-    st.plotly_chart(fig, use_container_width=True)
-
-    st.subheader("Full risk table")
-    st.dataframe(
-        display_df[[
-            "composite_rank", "treatment", "composite_risk",
-            "breadth", "evidence_burden", "high_conf_perturbations",
-            "therapeutic_area_coverage", "log2FC_SNHG14", "mean_dist", "pareto_optimal",
-        ]].rename(columns={
-            "composite_rank": "Rank",
-            "treatment": "Treatment",
-            "composite_risk": "Composite risk",
-            "breadth": "Disturbed genes",
-            "evidence_burden": "Evidence burden",
-            "high_conf_perturbations": "High-conf perturbations",
-            "therapeutic_area_coverage": "TA coverage",
-            "log2FC_SNHG14": "log₂FC SNHG14",
-            "mean_dist": "PCA distance",
-            "pareto_optimal": "Pareto optimal",
-        }),
-        hide_index=True,
-        use_container_width=True,
-    )
+    st.info("Risk ranking is currently disabled.")
