@@ -20,7 +20,7 @@ gcloud dataproc clusters create mycluster \
     --image-version 2.1-debian11 \
     --initialization-actions \
     gs://dataproc-initialization-actions/python/pip-install.sh \
-    --metadata 'PIP_PACKAGES=google-cloud-storage scikit-learn pandas' \
+    --metadata 'PIP_PACKAGES=google-cloud-storage scikit-learn pandas plotly pydeseq2 openpyxl numpy==1.26.4 fsspec gprofiler-official pyarrow' \
     --enable-component-gateway \
     --max-idle 7200s --max-age 18000s
 
