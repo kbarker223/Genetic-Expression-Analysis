@@ -35,7 +35,10 @@ def raw_data():
 
 #helper for pipeline_pull_opentargets
 def unwrap_ids(cell):
-    """Extract list of EFO IDs from BQ's nested dict structure."""
+    '''handles checking whta format the data comes in as from Big Query
+    three cases are BQ nested dict, already in a list or tuple so convert 
+    directly no unwrapping needed, and none will return empty list 
+    so nothing breaks later'''
     if cell is None:
         return []
     if isinstance(cell, dict) and 'list' in cell:
@@ -64,6 +67,7 @@ def pipeline_pull_opentargets():
     gene_list = [c for c in cpm.columns if c.startswith('ENSG')]
 
 
+    # SQL for bigquery
     ot_query = """
     SELECT
     a.targetId AS gene_id,
@@ -83,8 +87,7 @@ def pipeline_pull_opentargets():
     )
     disease_associations = client.query(ot_query, job_config=job_config).to_dataframe()
 
-    # === Resolve therapeutic area IDs to names ===
-
+    # therapeutic area IDs are nested lists, so we need to unwrap them and get unique IDs
     # Collect unique therapeutic area IDs
     all_ta_ids = set()
     for cell in disease_associations['therapeutic_area_ids'].dropna():
@@ -92,7 +95,7 @@ def pipeline_pull_opentargets():
             all_ta_ids.add(ta)
     all_ta_ids = list(all_ta_ids)
 
-    # Look up readable names
+    # Look up readable names as therapeutic area query
     ta_query = """
     SELECT id, name
     FROM `open-targets-prod.platform.disease`
@@ -109,12 +112,12 @@ def pipeline_pull_opentargets():
         lambda cell: [ta_dict.get(i, i) for i in unwrap_ids(cell)]
     )
 
-    # Save
+    # Save as parquet 
     disease_associations.to_parquet('data/disease_associations.parquet')
 
 
 
 if __name__ == "__main__":
     #raw_data() # only run once to create original parquet file
-    pipeline_pull_opentargets() # for grabbing the opentargets data
+    pipeline_pull_opentargets() # run for grabbing the opentargets data
 

@@ -24,8 +24,8 @@ gcloud dataproc clusters create mycluster \
     --enable-component-gateway \
     --max-idle 7200s --max-age 18000s
 
-#for kai on windows
-gcloud dataproc clusters create mycluster-2 --project gene-expression-big-data --bucket gene_datasets --region us-central1 --single-node --master-machine-type e2-highmem-4 --master-boot-disk-size 50 --optional-components=JUPYTER --image-version 2.1-debian11 --initialization-actions gs://dataproc-initialization-actions/python/pip-install.sh --metadata "PIP_PACKAGES=google-cloud-storage scikit-learn pandas" --enable-component-gateway --max-idle 7200s --max-age 18000s
+#for windows
+gcloud dataproc clusters create mycluster-2 --project gene-expression-big-data --bucket gene_datasets --region us-central1 --single-node --master-machine-type e2-highmem-4 --master-boot-disk-size 50 --optional-components=JUPYTER --image-version 2.1-debian11 --initialization-actions gs://dataproc-initialization-actions/python/pip-install.sh --metadata "PIP_PACKAGES=google-cloud-storage scikit-learn pandas pyarrow fsspec gcsfs plotly scipy numpy<2.0" --enable-component-gateway --max-idle 7200s --max-age 18000s
 
 
 # -------------------------------------------------------------
@@ -37,7 +37,7 @@ gcloud compute ssh mycluster-m \
     --zone=us-central1-a \
     -- -L 127.0.0.1:8890:localhost:8123 -N
 
-## For Kai on Windows
+## For Windows
 gcloud compute ssh mycluster-2-m --project=gene-expression-big-data --zone=us-central1-a -- -L 127.0.0.1:8890:localhost:8123 -N
 
 
