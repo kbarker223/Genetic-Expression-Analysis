@@ -1,0 +1,3608 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d1" for="node" attr.name="gene_symbol" attr.type="string" />
+  <key id="d0" for="node" attr.name="string_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ENSG00000002549">
+      <data key="d0">9606.ENSP00000226299</data>
+      <data key="d1">LAP3</data>
+    </node>
+    <node id="ENSG00000005471">
+      <data key="d0">9606.ENSP00000265723</data>
+      <data key="d1">ABCB4</data>
+    </node>
+    <node id="ENSG00000005483">
+      <data key="d0">9606.ENSP00000312379</data>
+      <data key="d1">KMT2E</data>
+    </node>
+    <node id="ENSG00000005700">
+      <data key="d0">9606.ENSP00000305721</data>
+      <data key="d1">IBTK</data>
+    </node>
+    <node id="ENSG00000008294">
+      <data key="d0">9606.ENSP00000262013</data>
+      <data key="d1">SPAG9</data>
+    </node>
+    <node id="ENSG00000009694">
+      <data key="d0">9606.ENSP00000403954</data>
+      <data key="d1">TENM1</data>
+    </node>
+    <node id="ENSG00000015479">
+      <data key="d0">9606.ENSP00000378284</data>
+      <data key="d1">MATR3</data>
+    </node>
+    <node id="ENSG00000023287">
+      <data key="d0">9606.ENSP00000025008</data>
+      <data key="d1">RB1CC1</data>
+    </node>
+    <node id="ENSG00000024526">
+      <data key="d0">9606.ENSP00000412292</data>
+      <data key="d1">DEPDC1</data>
+    </node>
+    <node id="ENSG00000025039">
+      <data key="d0">9606.ENSP00000358423</data>
+      <data key="d1">RRAGD</data>
+    </node>
+    <node id="ENSG00000033030">
+      <data key="d0">9606.ENSP00000438993</data>
+      <data key="d1">ZCCHC8</data>
+    </node>
+    <node id="ENSG00000035928">
+      <data key="d0">9606.ENSP00000371321</data>
+      <data key="d1">RFC1</data>
+    </node>
+    <node id="ENSG00000038295">
+      <data key="d0">9606.ENSP00000061240</data>
+      <data key="d1">TLL1</data>
+    </node>
+    <node id="ENSG00000047597">
+      <data key="d0">9606.ENSP00000367879</data>
+      <data key="d1">XK</data>
+    </node>
+    <node id="ENSG00000048828">
+      <data key="d0">9606.ENSP00000277165</data>
+      <data key="d1">FAM120A</data>
+    </node>
+    <node id="ENSG00000052749">
+      <data key="d0">9606.ENSP00000446184</data>
+      <data key="d1">RRP12</data>
+    </node>
+    <node id="ENSG00000055044">
+      <data key="d0">9606.ENSP00000264279</data>
+      <data key="d1">NOP58</data>
+    </node>
+    <node id="ENSG00000055609">
+      <data key="d0">9606.ENSP00000262189</data>
+      <data key="d1">KMT2C</data>
+    </node>
+    <node id="ENSG00000055732">
+      <data key="d0">9606.ENSP00000359621</data>
+      <data key="d1">MCOLN3</data>
+    </node>
+    <node id="ENSG00000058091">
+      <data key="d0">9606.ENSP00000369390</data>
+      <data key="d1">CDK14</data>
+    </node>
+    <node id="ENSG00000058668">
+      <data key="d0">9606.ENSP00000350310</data>
+      <data key="d1">ATP2B4</data>
+    </node>
+    <node id="ENSG00000062725">
+      <data key="d0">9606.ENSP00000083182</data>
+      <data key="d1">APPBP2</data>
+    </node>
+    <node id="ENSG00000064218">
+      <data key="d0">9606.ENSP00000190165</data>
+      <data key="d1">DMRT3</data>
+    </node>
+    <node id="ENSG00000064787">
+      <data key="d0">9606.ENSP00000379290</data>
+      <data key="d1">BCAS1</data>
+    </node>
+    <node id="ENSG00000065243">
+      <data key="d0">9606.ENSP00000359552</data>
+      <data key="d1">PKN2</data>
+    </node>
+    <node id="ENSG00000065613">
+      <data key="d0">9606.ENSP00000358770</data>
+      <data key="d1">SLK</data>
+    </node>
+    <node id="ENSG00000065809">
+      <data key="d0">9606.ENSP00000181796</data>
+      <data key="d1">FAM107B</data>
+    </node>
+    <node id="ENSG00000066427">
+      <data key="d0">9606.ENSP00000496695</data>
+      <data key="d1">ATXN3</data>
+    </node>
+    <node id="ENSG00000066777">
+      <data key="d0">9606.ENSP00000262215</data>
+      <data key="d1">ARFGEF1</data>
+    </node>
+    <node id="ENSG00000067248">
+      <data key="d0">9606.ENSP00000251636</data>
+      <data key="d1">DHX29</data>
+    </node>
+    <node id="ENSG00000068137">
+      <data key="d0">9606.ENSP00000468678</data>
+      <data key="d1">PLEKHH3</data>
+    </node>
+    <node id="ENSG00000068489">
+      <data key="d0">9606.ENSP00000262293</data>
+      <data key="d1">PRR11</data>
+    </node>
+    <node id="ENSG00000068784">
+      <data key="d0">9606.ENSP00000263736</data>
+      <data key="d1">SRBD1</data>
+    </node>
+    <node id="ENSG00000069275">
+      <data key="d0">9606.ENSP00000356110</data>
+      <data key="d1">NUCKS1</data>
+    </node>
+    <node id="ENSG00000070081">
+      <data key="d0">9606.ENSP00000436455</data>
+      <data key="d1">NUCB2</data>
+    </node>
+    <node id="ENSG00000070476">
+      <data key="d0">9606.ENSP00000374359</data>
+      <data key="d1">ZXDC</data>
+    </node>
+    <node id="ENSG00000071794">
+      <data key="d0">9606.ENSP00000308944</data>
+      <data key="d1">HLTF</data>
+    </node>
+    <node id="ENSG00000072415">
+      <data key="d0">9606.ENSP00000261681</data>
+      <data key="d1">MPP5</data>
+    </node>
+    <node id="ENSG00000072571">
+      <data key="d0">9606.ENSP00000377492</data>
+      <data key="d1">HMMR</data>
+    </node>
+    <node id="ENSG00000072803">
+      <data key="d0">9606.ENSP00000265094</data>
+      <data key="d1">FBXW11</data>
+    </node>
+    <node id="ENSG00000072832">
+      <data key="d0">9606.ENSP00000321606</data>
+      <data key="d1">CRMP1</data>
+    </node>
+    <node id="ENSG00000076108">
+      <data key="d0">9606.ENSP00000446880</data>
+      <data key="d1">BAZ2A</data>
+    </node>
+    <node id="ENSG00000077254">
+      <data key="d0">9606.ENSP00000359829</data>
+      <data key="d1">USP33</data>
+    </node>
+    <node id="ENSG00000078674">
+      <data key="d0">9606.ENSP00000327077</data>
+      <data key="d1">PCM1</data>
+    </node>
+    <node id="ENSG00000079482">
+      <data key="d0">9606.ENSP00000347710</data>
+      <data key="d1">OPHN1</data>
+    </node>
+    <node id="ENSG00000080298">
+      <data key="d0">9606.ENSP00000371434</data>
+      <data key="d1">RFX3</data>
+    </node>
+    <node id="ENSG00000080345">
+      <data key="d0">9606.ENSP00000243326</data>
+      <data key="d1">RIF1</data>
+    </node>
+    <node id="ENSG00000081138">
+      <data key="d0">9606.ENSP00000381058</data>
+      <data key="d1">CDH7</data>
+    </node>
+    <node id="ENSG00000083093">
+      <data key="d0">9606.ENSP00000261584</data>
+      <data key="d1">PALB2</data>
+    </node>
+    <node id="ENSG00000084093">
+      <data key="d0">9606.ENSP00000311816</data>
+      <data key="d1">REST</data>
+    </node>
+    <node id="ENSG00000089048">
+      <data key="d0">9606.ENSP00000202816</data>
+      <data key="d1">ESF1</data>
+    </node>
+    <node id="ENSG00000089060">
+      <data key="d0">9606.ENSP00000447091</data>
+      <data key="d1">SLC8B1</data>
+    </node>
+    <node id="ENSG00000089335">
+      <data key="d0">9606.ENSP00000396379</data>
+      <data key="d1">ZNF302</data>
+    </node>
+    <node id="ENSG00000089916">
+      <data key="d0">9606.ENSP00000261530</data>
+      <data key="d1">GPATCH2L</data>
+    </node>
+    <node id="ENSG00000091409">
+      <data key="d0">9606.ENSP00000386896</data>
+      <data key="d1">ITGA6</data>
+    </node>
+    <node id="ENSG00000092140">
+      <data key="d0">9606.ENSP00000206595</data>
+      <data key="d1">G2E3</data>
+    </node>
+    <node id="ENSG00000095739">
+      <data key="d0">9606.ENSP00000364683</data>
+      <data key="d1">BAMBI</data>
+    </node>
+    <node id="ENSG00000095787">
+      <data key="d0">9606.ENSP00000346986</data>
+      <data key="d1">WAC</data>
+    </node>
+    <node id="ENSG00000099785">
+      <data key="d0">9606.ENSP00000471536</data>
+      <data key="d1">MARCHF2</data>
+    </node>
+    <node id="ENSG00000100284">
+      <data key="d0">9606.ENSP00000413697</data>
+      <data key="d1">TOM1</data>
+    </node>
+    <node id="ENSG00000100393">
+      <data key="d0">9606.ENSP00000263253</data>
+      <data key="d1">EP300</data>
+    </node>
+    <node id="ENSG00000100439">
+      <data key="d0">9606.ENSP00000414558</data>
+      <data key="d1">ABHD4</data>
+    </node>
+    <node id="ENSG00000100442">
+      <data key="d0">9606.ENSP00000216330</data>
+      <data key="d1">FKBP3</data>
+    </node>
+    <node id="ENSG00000100592">
+      <data key="d0">9606.ENSP00000378557</data>
+      <data key="d1">DAAM1</data>
+    </node>
+    <node id="ENSG00000101752">
+      <data key="d0">9606.ENSP00000261537</data>
+      <data key="d1">MIB1</data>
+    </node>
+    <node id="ENSG00000102977">
+      <data key="d0">9606.ENSP00000483117</data>
+      <data key="d1">ACD</data>
+    </node>
+    <node id="ENSG00000103274">
+      <data key="d0">9606.ENSP00000283027</data>
+      <data key="d1">NUBP1</data>
+    </node>
+    <node id="ENSG00000104356">
+      <data key="d0">9606.ENSP00000385787</data>
+      <data key="d1">POP1</data>
+    </node>
+    <node id="ENSG00000104976">
+      <data key="d0">9606.ENSP00000221573</data>
+      <data key="d1">SNAPC2</data>
+    </node>
+    <node id="ENSG00000105576">
+      <data key="d0">9606.ENSP00000407182</data>
+      <data key="d1">TNPO2</data>
+    </node>
+    <node id="ENSG00000105963">
+      <data key="d0">9606.ENSP00000442682</data>
+      <data key="d1">ADAP1</data>
+    </node>
+    <node id="ENSG00000106462">
+      <data key="d0">9606.ENSP00000320147</data>
+      <data key="d1">EZH2</data>
+    </node>
+    <node id="ENSG00000106780">
+      <data key="d0">9606.ENSP00000363040</data>
+      <data key="d1">MEGF9</data>
+    </node>
+    <node id="ENSG00000107290">
+      <data key="d0">9606.ENSP00000224140</data>
+      <data key="d1">SETX</data>
+    </node>
+    <node id="ENSG00000107362">
+      <data key="d0">9606.ENSP00000366240</data>
+      <data key="d1">ABHD17B</data>
+    </node>
+    <node id="ENSG00000107438">
+      <data key="d0">9606.ENSP00000360305</data>
+      <data key="d1">PDLIM1</data>
+    </node>
+    <node id="ENSG00000107614">
+      <data key="d0">9606.ENSP00000367030</data>
+      <data key="d1">TRDMT1</data>
+    </node>
+    <node id="ENSG00000108576">
+      <data key="d0">9606.ENSP00000261707</data>
+      <data key="d1">SLC6A4</data>
+    </node>
+    <node id="ENSG00000108588">
+      <data key="d0">9606.ENSP00000225726</data>
+      <data key="d1">CCDC47</data>
+    </node>
+    <node id="ENSG00000109184">
+      <data key="d0">9606.ENSP00000389900</data>
+      <data key="d1">DCUN1D4</data>
+    </node>
+    <node id="ENSG00000109689">
+      <data key="d0">9606.ENSP00000417569</data>
+      <data key="d1">STIM2</data>
+    </node>
+    <node id="ENSG00000109805">
+      <data key="d0">9606.ENSP00000251496</data>
+      <data key="d1">NCAPG</data>
+    </node>
+    <node id="ENSG00000109971">
+      <data key="d0">9606.ENSP00000437125</data>
+      <data key="d1">HSPA8</data>
+    </node>
+    <node id="ENSG00000111481">
+      <data key="d0">9606.ENSP00000449270</data>
+      <data key="d1">COPZ1</data>
+    </node>
+    <node id="ENSG00000111880">
+      <data key="d0">9606.ENSP00000358497</data>
+      <data key="d1">RNGTT</data>
+    </node>
+    <node id="ENSG00000111962">
+      <data key="d0">9606.ENSP00000356433</data>
+      <data key="d1">UST</data>
+    </node>
+    <node id="ENSG00000112078">
+      <data key="d0">9606.ENSP00000362836</data>
+      <data key="d1">KCTD20</data>
+    </node>
+    <node id="ENSG00000112146">
+      <data key="d0">9606.ENSP00000244426</data>
+      <data key="d1">FBXO9</data>
+    </node>
+    <node id="ENSG00000112242">
+      <data key="d0">9606.ENSP00000262904</data>
+      <data key="d1">E2F3</data>
+    </node>
+    <node id="ENSG00000112701">
+      <data key="d0">9606.ENSP00000402527</data>
+      <data key="d1">SENP6</data>
+    </node>
+    <node id="ENSG00000113269">
+      <data key="d0">9606.ENSP00000430237</data>
+      <data key="d1">RNF130</data>
+    </node>
+    <node id="ENSG00000113732">
+      <data key="d0">9606.ENSP00000429690</data>
+      <data key="d1">ATP6V0E1</data>
+    </node>
+    <node id="ENSG00000114120">
+      <data key="d0">9606.ENSP00000320688</data>
+      <data key="d1">SLC25A36</data>
+    </node>
+    <node id="ENSG00000114248">
+      <data key="d0">9606.ENSP00000325978</data>
+      <data key="d1">LRRC31</data>
+    </node>
+    <node id="ENSG00000115085">
+      <data key="d0">9606.ENSP00000264972</data>
+      <data key="d1">ZAP70</data>
+    </node>
+    <node id="ENSG00000115137">
+      <data key="d0">9606.ENSP00000264711</data>
+      <data key="d1">DNAJC27</data>
+    </node>
+    <node id="ENSG00000115274">
+      <data key="d0">9606.ENSP00000233331</data>
+      <data key="d1">INO80B</data>
+    </node>
+    <node id="ENSG00000115415">
+      <data key="d0">9606.ENSP00000354394</data>
+      <data key="d1">STAT1</data>
+    </node>
+    <node id="ENSG00000115993">
+      <data key="d0">9606.ENSP00000328875</data>
+      <data key="d1">TRAK2</data>
+    </node>
+    <node id="ENSG00000116539">
+      <data key="d0">9606.ENSP00000376204</data>
+      <data key="d1">ASH1L</data>
+    </node>
+    <node id="ENSG00000116731">
+      <data key="d0">9606.ENSP00000235372</data>
+      <data key="d1">PRDM2</data>
+    </node>
+    <node id="ENSG00000116903">
+      <data key="d0">9606.ENSP00000355605</data>
+      <data key="d1">EXOC8</data>
+    </node>
+    <node id="ENSG00000117280">
+      <data key="d0">9606.ENSP00000356107</data>
+      <data key="d1">RAB29</data>
+    </node>
+    <node id="ENSG00000118260">
+      <data key="d0">9606.ENSP00000387699</data>
+      <data key="d1">CREB1</data>
+    </node>
+    <node id="ENSG00000118482">
+      <data key="d0">9606.ENSP00000262043</data>
+      <data key="d1">PHF3</data>
+    </node>
+    <node id="ENSG00000119004">
+      <data key="d0">9606.ENSP00000348380</data>
+      <data key="d1">CYP20A1</data>
+    </node>
+    <node id="ENSG00000119314">
+      <data key="d0">9606.ENSP00000414921</data>
+      <data key="d1">PTBP3</data>
+    </node>
+    <node id="ENSG00000119397">
+      <data key="d0">9606.ENSP00000362962</data>
+      <data key="d1">CNTRL</data>
+    </node>
+    <node id="ENSG00000119421">
+      <data key="d0">9606.ENSP00000362873</data>
+      <data key="d1">NDUFA8</data>
+    </node>
+    <node id="ENSG00000119547">
+      <data key="d0">9606.ENSP00000419185</data>
+      <data key="d1">ONECUT2</data>
+    </node>
+    <node id="ENSG00000119922">
+      <data key="d0">9606.ENSP00000490935</data>
+      <data key="d1">IFIT2</data>
+    </node>
+    <node id="ENSG00000119946">
+      <data key="d0">9606.ENSP00000349147</data>
+      <data key="d1">CNNM1</data>
+    </node>
+    <node id="ENSG00000121057">
+      <data key="d0">9606.ENSP00000478212</data>
+      <data key="d1">AKAP1</data>
+    </node>
+    <node id="ENSG00000121152">
+      <data key="d0">9606.ENSP00000240423</data>
+      <data key="d1">NCAPH</data>
+    </node>
+    <node id="ENSG00000121316">
+      <data key="d0">9606.ENSP00000240617</data>
+      <data key="d1">PLBD1</data>
+    </node>
+    <node id="ENSG00000121350">
+      <data key="d0">9606.ENSP00000240651</data>
+      <data key="d1">PYROXD1</data>
+    </node>
+    <node id="ENSG00000121741">
+      <data key="d0">9606.ENSP00000479904</data>
+      <data key="d1">ZMYM2</data>
+    </node>
+    <node id="ENSG00000121749">
+      <data key="d0">9606.ENSP00000448182</data>
+      <data key="d1">TBC1D15</data>
+    </node>
+    <node id="ENSG00000122085">
+      <data key="d0">9606.ENSP00000480378</data>
+      <data key="d1">MTERF4</data>
+    </node>
+    <node id="ENSG00000122218">
+      <data key="d0">9606.ENSP00000357048</data>
+      <data key="d1">COPA</data>
+    </node>
+    <node id="ENSG00000123352">
+      <data key="d0">9606.ENSP00000448228</data>
+      <data key="d1">SPATS2</data>
+    </node>
+    <node id="ENSG00000124225">
+      <data key="d0">9606.ENSP00000345826</data>
+      <data key="d1">PMEPA1</data>
+    </node>
+    <node id="ENSG00000124688">
+      <data key="d0">9606.ENSP00000410818</data>
+      <data key="d1">MAD2L1BP</data>
+    </node>
+    <node id="ENSG00000125633">
+      <data key="d0">9606.ENSP00000365477</data>
+      <data key="d1">CCDC93</data>
+    </node>
+    <node id="ENSG00000125850">
+      <data key="d0">9606.ENSP00000278780</data>
+      <data key="d1">OVOL2</data>
+    </node>
+    <node id="ENSG00000125944">
+      <data key="d0">9606.ENSP00000363745</data>
+      <data key="d1">HNRNPR</data>
+    </node>
+    <node id="ENSG00000125968">
+      <data key="d0">9606.ENSP00000365280</data>
+      <data key="d1">ID1</data>
+    </node>
+    <node id="ENSG00000126070">
+      <data key="d0">9606.ENSP00000362287</data>
+      <data key="d1">AGO3</data>
+    </node>
+    <node id="ENSG00000126562">
+      <data key="d0">9606.ENSP00000246914</data>
+      <data key="d1">WNK4</data>
+    </node>
+    <node id="ENSG00000127083">
+      <data key="d0">9606.ENSP00000364700</data>
+      <data key="d1">OMD</data>
+    </node>
+    <node id="ENSG00000127481">
+      <data key="d0">9606.ENSP00000364403</data>
+      <data key="d1">UBR4</data>
+    </node>
+    <node id="ENSG00000128829">
+      <data key="d0">9606.ENSP00000263791</data>
+      <data key="d1">EIF2AK4</data>
+    </node>
+    <node id="ENSG00000129003">
+      <data key="d0">9606.ENSP00000493560</data>
+      <data key="d1">VPS13C</data>
+    </node>
+    <node id="ENSG00000129317">
+      <data key="d0">9606.ENSP00000343081</data>
+      <data key="d1">PUS7L</data>
+    </node>
+    <node id="ENSG00000129480">
+      <data key="d0">9606.ENSP00000312224</data>
+      <data key="d1">DTD2</data>
+    </node>
+    <node id="ENSG00000129534">
+      <data key="d0">9606.ENSP00000309790</data>
+      <data key="d1">MIS18BP1</data>
+    </node>
+    <node id="ENSG00000130305">
+      <data key="d0">9606.ENSP00000309126</data>
+      <data key="d1">NSUN5</data>
+    </node>
+    <node id="ENSG00000132446">
+      <data key="d0">9606.ENSP00000368207</data>
+      <data key="d1">FTHL17</data>
+    </node>
+    <node id="ENSG00000132549">
+      <data key="d0">9606.ENSP00000351346</data>
+      <data key="d1">VPS13B</data>
+    </node>
+    <node id="ENSG00000132824">
+      <data key="d0">9606.ENSP00000340243</data>
+      <data key="d1">SERINC3</data>
+    </node>
+    <node id="ENSG00000132958">
+      <data key="d0">9606.ENSP00000383089</data>
+      <data key="d1">TPTE2</data>
+    </node>
+    <node id="ENSG00000133114">
+      <data key="d0">9606.ENSP00000368447</data>
+      <data key="d1">GPALPP1</data>
+    </node>
+    <node id="ENSG00000133226">
+      <data key="d0">9606.ENSP00000326261</data>
+      <data key="d1">SRRM1</data>
+    </node>
+    <node id="ENSG00000133703">
+      <data key="d0">9606.ENSP00000256078</data>
+      <data key="d1">KRAS</data>
+    </node>
+    <node id="ENSG00000133958">
+      <data key="d0">9606.ENSP00000256339</data>
+      <data key="d1">UNC79</data>
+    </node>
+    <node id="ENSG00000134318">
+      <data key="d0">9606.ENSP00000317985</data>
+      <data key="d1">ROCK2</data>
+    </node>
+    <node id="ENSG00000134369">
+      <data key="d0">9606.ENSP00000356265</data>
+      <data key="d1">NAV1</data>
+    </node>
+    <node id="ENSG00000134627">
+      <data key="d0">9606.ENSP00000299001</data>
+      <data key="d1">PIWIL4</data>
+    </node>
+    <node id="ENSG00000134709">
+      <data key="d0">9606.ENSP00000360252</data>
+      <data key="d1">HOOK1</data>
+    </node>
+    <node id="ENSG00000134744">
+      <data key="d0">9606.ENSP00000257177</data>
+      <data key="d1">TUT4</data>
+    </node>
+    <node id="ENSG00000135596">
+      <data key="d0">9606.ENSP00000486901</data>
+      <data key="d1">MICAL1</data>
+    </node>
+    <node id="ENSG00000135968">
+      <data key="d0">9606.ENSP00000307939</data>
+      <data key="d1">GCC2</data>
+    </node>
+    <node id="ENSG00000136104">
+      <data key="d0">9606.ENSP00000337623</data>
+      <data key="d1">RNASEH2B</data>
+    </node>
+    <node id="ENSG00000137135">
+      <data key="d0">9606.ENSP00000367638</data>
+      <data key="d1">ARHGEF39</data>
+    </node>
+    <node id="ENSG00000137563">
+      <data key="d0">9606.ENSP00000260118</data>
+      <data key="d1">GGH</data>
+    </node>
+    <node id="ENSG00000137574">
+      <data key="d0">9606.ENSP00000260129</data>
+      <data key="d1">TGS1</data>
+    </node>
+    <node id="ENSG00000137656">
+      <data key="d0">9606.ENSP00000260210</data>
+      <data key="d1">BUD13</data>
+    </node>
+    <node id="ENSG00000137804">
+      <data key="d0">9606.ENSP00000499238</data>
+      <data key="d1">NUSAP1</data>
+    </node>
+    <node id="ENSG00000137824">
+      <data key="d0">9606.ENSP00000260385</data>
+      <data key="d1">RMDN3</data>
+    </node>
+    <node id="ENSG00000137860">
+      <data key="d0">9606.ENSP00000315006</data>
+      <data key="d1">SLC28A2</data>
+    </node>
+    <node id="ENSG00000137962">
+      <data key="d0">9606.ENSP00000260526</data>
+      <data key="d1">ARHGAP29</data>
+    </node>
+    <node id="ENSG00000138180">
+      <data key="d0">9606.ENSP00000360540</data>
+      <data key="d1">CEP55</data>
+    </node>
+    <node id="ENSG00000138182">
+      <data key="d0">9606.ENSP00000360793</data>
+      <data key="d1">KIF20B</data>
+    </node>
+    <node id="ENSG00000138376">
+      <data key="d0">9606.ENSP00000260947</data>
+      <data key="d1">BARD1</data>
+    </node>
+    <node id="ENSG00000138385">
+      <data key="d0">9606.ENSP00000386636</data>
+      <data key="d1">SSB</data>
+    </node>
+    <node id="ENSG00000138758">
+      <data key="d0">9606.ENSP00000422896</data>
+      <data key="d1">SEPTIN11</data>
+    </node>
+    <node id="ENSG00000138760">
+      <data key="d0">9606.ENSP00000264896</data>
+      <data key="d1">SCARB2</data>
+    </node>
+    <node id="ENSG00000138778">
+      <data key="d0">9606.ENSP00000265148</data>
+      <data key="d1">CENPE</data>
+    </node>
+    <node id="ENSG00000139146">
+      <data key="d0">9606.ENSP00000337477</data>
+      <data key="d1">SINHCAF</data>
+    </node>
+    <node id="ENSG00000139220">
+      <data key="d0">9606.ENSP00000450337</data>
+      <data key="d1">PPFIA2</data>
+    </node>
+    <node id="ENSG00000139514">
+      <data key="d0">9606.ENSP00000370128</data>
+      <data key="d1">SLC7A1</data>
+    </node>
+    <node id="ENSG00000139618">
+      <data key="d0">9606.ENSP00000369497</data>
+      <data key="d1">BRCA2</data>
+    </node>
+    <node id="ENSG00000139631">
+      <data key="d0">9606.ENSP00000267085</data>
+      <data key="d1">CSAD</data>
+    </node>
+    <node id="ENSG00000139985">
+      <data key="d0">9606.ENSP00000474385</data>
+      <data key="d1">ADAM21</data>
+    </node>
+    <node id="ENSG00000140320">
+      <data key="d0">9606.ENSP00000396976</data>
+      <data key="d1">BAHD1</data>
+    </node>
+    <node id="ENSG00000140386">
+      <data key="d0">9606.ENSP00000454973</data>
+      <data key="d1">SCAPER</data>
+    </node>
+    <node id="ENSG00000140563">
+      <data key="d0">9606.ENSP00000350377</data>
+      <data key="d1">MCTP2</data>
+    </node>
+    <node id="ENSG00000140987">
+      <data key="d0">9606.ENSP00000380061</data>
+      <data key="d1">ZSCAN32</data>
+    </node>
+    <node id="ENSG00000141622">
+      <data key="d0">9606.ENSP00000269439</data>
+      <data key="d1">RNF165</data>
+    </node>
+    <node id="ENSG00000142459">
+      <data key="d0">9606.ENSP00000445905</data>
+      <data key="d1">EVI5L</data>
+    </node>
+    <node id="ENSG00000142687">
+      <data key="d0">9606.ENSP00000318406</data>
+      <data key="d1">KIAA0319L</data>
+    </node>
+    <node id="ENSG00000143153">
+      <data key="d0">9606.ENSP00000356790</data>
+      <data key="d1">ATP1B1</data>
+    </node>
+    <node id="ENSG00000143374">
+      <data key="d0">9606.ENSP00000358060</data>
+      <data key="d1">TARS2</data>
+    </node>
+    <node id="ENSG00000143499">
+      <data key="d0">9606.ENSP00000355924</data>
+      <data key="d1">SMYD2</data>
+    </node>
+    <node id="ENSG00000144426">
+      <data key="d0">9606.ENSP00000399903</data>
+      <data key="d1">NBEAL1</data>
+    </node>
+    <node id="ENSG00000144554">
+      <data key="d0">9606.ENSP00000287647</data>
+      <data key="d1">FANCD2</data>
+    </node>
+    <node id="ENSG00000144749">
+      <data key="d0">9606.ENSP00000273261</data>
+      <data key="d1">LRIG1</data>
+    </node>
+    <node id="ENSG00000145012">
+      <data key="d0">9606.ENSP00000491657</data>
+      <data key="d1">LPP</data>
+    </node>
+    <node id="ENSG00000145390">
+      <data key="d0">9606.ENSP00000409906</data>
+      <data key="d1">USP53</data>
+    </node>
+    <node id="ENSG00000145536">
+      <data key="d0">9606.ENSP00000274181</data>
+      <data key="d1">ADAMTS16</data>
+    </node>
+    <node id="ENSG00000145743">
+      <data key="d0">9606.ENSP00000437464</data>
+      <data key="d1">FBXL17</data>
+    </node>
+    <node id="ENSG00000146416">
+      <data key="d0">9606.ENSP00000350509</data>
+      <data key="d1">AIG1</data>
+    </node>
+    <node id="ENSG00000146674">
+      <data key="d0">9606.ENSP00000370473</data>
+      <data key="d1">IGFBP3</data>
+    </node>
+    <node id="ENSG00000146833">
+      <data key="d0">9606.ENSP00000348216</data>
+      <data key="d1">TRIM4</data>
+    </node>
+    <node id="ENSG00000147010">
+      <data key="d0">9606.ENSP00000380921</data>
+      <data key="d1">SH3KBP1</data>
+    </node>
+    <node id="ENSG00000147133">
+      <data key="d0">9606.ENSP00000406549</data>
+      <data key="d1">TAF1</data>
+    </node>
+    <node id="ENSG00000147679">
+      <data key="d0">9606.ENSP00000308332</data>
+      <data key="d1">UTP23</data>
+    </node>
+    <node id="ENSG00000147853">
+      <data key="d0">9606.ENSP00000371230</data>
+      <data key="d1">AK3</data>
+    </node>
+    <node id="ENSG00000147905">
+      <data key="d0">9606.ENSP00000443113</data>
+      <data key="d1">ZCCHC7</data>
+    </node>
+    <node id="ENSG00000148700">
+      <data key="d0">9606.ENSP00000348381</data>
+      <data key="d1">ADD3</data>
+    </node>
+    <node id="ENSG00000148737">
+      <data key="d0">9606.ENSP00000486891</data>
+      <data key="d1">TCF7L2</data>
+    </node>
+    <node id="ENSG00000148773">
+      <data key="d0">9606.ENSP00000357643</data>
+      <data key="d1">MKI67</data>
+    </node>
+    <node id="ENSG00000149311">
+      <data key="d0">9606.ENSP00000278616</data>
+      <data key="d1">ATM</data>
+    </node>
+    <node id="ENSG00000151240">
+      <data key="d0">9606.ENSP00000280886</data>
+      <data key="d1">DIP2C</data>
+    </node>
+    <node id="ENSG00000151338">
+      <data key="d0">9606.ENSP00000333539</data>
+      <data key="d1">MIPOL1</data>
+    </node>
+    <node id="ENSG00000151422">
+      <data key="d0">9606.ENSP00000281092</data>
+      <data key="d1">FER</data>
+    </node>
+    <node id="ENSG00000151690">
+      <data key="d0">9606.ENSP00000376141</data>
+      <data key="d1">MFSD6</data>
+    </node>
+    <node id="ENSG00000151725">
+      <data key="d0">9606.ENSP00000281453</data>
+      <data key="d1">CENPU</data>
+    </node>
+    <node id="ENSG00000152332">
+      <data key="d0">9606.ENSP00000420270</data>
+      <data key="d1">UHMK1</data>
+    </node>
+    <node id="ENSG00000152558">
+      <data key="d0">9606.ENSP00000381204</data>
+      <data key="d1">TMEM123</data>
+    </node>
+    <node id="ENSG00000152601">
+      <data key="d0">9606.ENSP00000282486</data>
+      <data key="d1">MBNL1</data>
+    </node>
+    <node id="ENSG00000153721">
+      <data key="d0">9606.ENSP00000475915</data>
+      <data key="d1">CNKSR3</data>
+    </node>
+    <node id="ENSG00000153815">
+      <data key="d0">9606.ENSP00000446100</data>
+      <data key="d1">CMIP</data>
+    </node>
+    <node id="ENSG00000153898">
+      <data key="d0">9606.ENSP00000359640</data>
+      <data key="d1">MCOLN2</data>
+    </node>
+    <node id="ENSG00000154153">
+      <data key="d0">9606.ENSP00000304642</data>
+      <data key="d1">RETREG1</data>
+    </node>
+    <node id="ENSG00000154265">
+      <data key="d0">9606.ENSP00000376443</data>
+      <data key="d1">ABCA5</data>
+    </node>
+    <node id="ENSG00000155330">
+      <data key="d0">9606.ENSP00000285697</data>
+      <data key="d1">C16orf87</data>
+    </node>
+    <node id="ENSG00000156103">
+      <data key="d0">9606.ENSP00000286614</data>
+      <data key="d1">MMP16</data>
+    </node>
+    <node id="ENSG00000156876">
+      <data key="d0">9606.ENSP00000287482</data>
+      <data key="d1">SASS6</data>
+    </node>
+    <node id="ENSG00000157036">
+      <data key="d0">9606.ENSP00000287675</data>
+      <data key="d1">EXOG</data>
+    </node>
+    <node id="ENSG00000158517">
+      <data key="d0">9606.ENSP00000289473</data>
+      <data key="d1">NCF1</data>
+    </node>
+    <node id="ENSG00000158623">
+      <data key="d0">9606.ENSP00000402346</data>
+      <data key="d1">COPG2</data>
+    </node>
+    <node id="ENSG00000158715">
+      <data key="d0">9606.ENSP00000356113</data>
+      <data key="d1">SLC45A3</data>
+    </node>
+    <node id="ENSG00000159063">
+      <data key="d0">9606.ENSP00000299626</data>
+      <data key="d1">ALG8</data>
+    </node>
+    <node id="ENSG00000160049">
+      <data key="d0">9606.ENSP00000366237</data>
+      <data key="d1">DFFA</data>
+    </node>
+    <node id="ENSG00000160062">
+      <data key="d0">9606.ENSP00000362609</data>
+      <data key="d1">ZBTB8A</data>
+    </node>
+    <node id="ENSG00000160401">
+      <data key="d0">9606.ENSP00000362392</data>
+      <data key="d1">CFAP157</data>
+    </node>
+    <node id="ENSG00000160551">
+      <data key="d0">9606.ENSP00000261716</data>
+      <data key="d1">TAOK1</data>
+    </node>
+    <node id="ENSG00000161551">
+      <data key="d0">9606.ENSP00000301399</data>
+      <data key="d1">ZNF577</data>
+    </node>
+    <node id="ENSG00000162063">
+      <data key="d0">9606.ENSP00000380256</data>
+      <data key="d1">CCNF</data>
+    </node>
+    <node id="ENSG00000162066">
+      <data key="d0">9606.ENSP00000391596</data>
+      <data key="d1">AMDHD2</data>
+    </node>
+    <node id="ENSG00000162409">
+      <data key="d0">9606.ENSP00000360290</data>
+      <data key="d1">PRKAA2</data>
+    </node>
+    <node id="ENSG00000162601">
+      <data key="d0">9606.ENSP00000418734</data>
+      <data key="d1">MYSM1</data>
+    </node>
+    <node id="ENSG00000162641">
+      <data key="d0">9606.ENSP00000359018</data>
+      <data key="d1">AKNAD1</data>
+    </node>
+    <node id="ENSG00000162980">
+      <data key="d0">9606.ENSP00000295087</data>
+      <data key="d1">ARL5A</data>
+    </node>
+    <node id="ENSG00000163781">
+      <data key="d0">9606.ENSP00000260810</data>
+      <data key="d1">TOPBP1</data>
+    </node>
+    <node id="ENSG00000163798">
+      <data key="d0">9606.ENSP00000479964</data>
+      <data key="d1">SLC4A1AP</data>
+    </node>
+    <node id="ENSG00000163832">
+      <data key="d0">9606.ENSP00000296149</data>
+      <data key="d1">ELP6</data>
+    </node>
+    <node id="ENSG00000164070">
+      <data key="d0">9606.ENSP00000296464</data>
+      <data key="d1">HSPA4L</data>
+    </node>
+    <node id="ENSG00000164163">
+      <data key="d0">9606.ENSP00000296577</data>
+      <data key="d1">ABCE1</data>
+    </node>
+    <node id="ENSG00000164244">
+      <data key="d0">9606.ENSP00000421965</data>
+      <data key="d1">PRRC1</data>
+    </node>
+    <node id="ENSG00000164292">
+      <data key="d0">9606.ENSP00000369318</data>
+      <data key="d1">RHOBTB3</data>
+    </node>
+    <node id="ENSG00000164434">
+      <data key="d0">9606.ENSP00000348931</data>
+      <data key="d1">FABP7</data>
+    </node>
+    <node id="ENSG00000164506">
+      <data key="d0">9606.ENSP00000321826</data>
+      <data key="d1">STXBP5</data>
+    </node>
+    <node id="ENSG00000164830">
+      <data key="d0">9606.ENSP00000405424</data>
+      <data key="d1">OXR1</data>
+    </node>
+    <node id="ENSG00000164938">
+      <data key="d0">9606.ENSP00000344215</data>
+      <data key="d1">TP53INP1</data>
+    </node>
+    <node id="ENSG00000165164">
+      <data key="d0">9606.ENSP00000367922</data>
+      <data key="d1">CFAP47</data>
+    </node>
+    <node id="ENSG00000165219">
+      <data key="d0">9606.ENSP00000377665</data>
+      <data key="d1">GAPVD1</data>
+    </node>
+    <node id="ENSG00000165271">
+      <data key="d0">9606.ENSP00000297990</data>
+      <data key="d1">NOL6</data>
+    </node>
+    <node id="ENSG00000165389">
+      <data key="d0">9606.ENSP00000298130</data>
+      <data key="d1">SPTSSA</data>
+    </node>
+    <node id="ENSG00000165406">
+      <data key="d0">9606.ENSP00000411848</data>
+      <data key="d1">MARCHF8</data>
+    </node>
+    <node id="ENSG00000166004">
+      <data key="d0">9606.ENSP00000316681</data>
+      <data key="d1">CEP295</data>
+    </node>
+    <node id="ENSG00000166266">
+      <data key="d0">9606.ENSP00000376808</data>
+      <data key="d1">CUL5</data>
+    </node>
+    <node id="ENSG00000166278">
+      <data key="d0">9606.ENSP00000299367</data>
+      <data key="d1">C2</data>
+    </node>
+    <node id="ENSG00000166311">
+      <data key="d0">9606.ENSP00000340409</data>
+      <data key="d1">SMPD1</data>
+    </node>
+    <node id="ENSG00000166333">
+      <data key="d0">9606.ENSP00000379975</data>
+      <data key="d1">ILK</data>
+    </node>
+    <node id="ENSG00000166349">
+      <data key="d0">9606.ENSP00000299440</data>
+      <data key="d1">RAG1</data>
+    </node>
+    <node id="ENSG00000166503">
+      <data key="d0">9606.ENSP00000299633</data>
+      <data key="d1">HDGFL3</data>
+    </node>
+    <node id="ENSG00000166596">
+      <data key="d0">9606.ENSP00000339449</data>
+      <data key="d1">CFAP52</data>
+    </node>
+    <node id="ENSG00000166971">
+      <data key="d0">9606.ENSP00000300245</data>
+      <data key="d1">AKTIP</data>
+    </node>
+    <node id="ENSG00000167157">
+      <data key="d0">9606.ENSP00000361547</data>
+      <data key="d1">PRRX2</data>
+    </node>
+    <node id="ENSG00000167740">
+      <data key="d0">9606.ENSP00000301391</data>
+      <data key="d1">CYB5D2</data>
+    </node>
+    <node id="ENSG00000167994">
+      <data key="d0">9606.ENSP00000378313</data>
+      <data key="d1">RAB3IL1</data>
+    </node>
+    <node id="ENSG00000168135">
+      <data key="d0">9606.ENSP00000306497</data>
+      <data key="d1">KCNJ4</data>
+    </node>
+    <node id="ENSG00000168491">
+      <data key="d0">9606.ENSP00000306776</data>
+      <data key="d1">CCDC110</data>
+    </node>
+    <node id="ENSG00000168724">
+      <data key="d0">9606.ENSP00000371451</data>
+      <data key="d1">DNAJC21</data>
+    </node>
+    <node id="ENSG00000168803">
+      <data key="d0">9606.ENSP00000456242</data>
+      <data key="d1">ADAL</data>
+    </node>
+    <node id="ENSG00000168916">
+      <data key="d0">9606.ENSP00000307746</data>
+      <data key="d1">ZNF608</data>
+    </node>
+    <node id="ENSG00000170017">
+      <data key="d0">9606.ENSP00000305988</data>
+      <data key="d1">ALCAM</data>
+    </node>
+    <node id="ENSG00000170122">
+      <data key="d0">9606.ENSP00000371940</data>
+      <data key="d1">FOXD4</data>
+    </node>
+    <node id="ENSG00000170242">
+      <data key="d0">9606.ENSP00000382382</data>
+      <data key="d1">USP47</data>
+    </node>
+    <node id="ENSG00000170324">
+      <data key="d0">9606.ENSP00000363317</data>
+      <data key="d1">FRMPD2</data>
+    </node>
+    <node id="ENSG00000170540">
+      <data key="d0">9606.ENSP00000306788</data>
+      <data key="d1">ARL6IP1</data>
+    </node>
+    <node id="ENSG00000171490">
+      <data key="d0">9606.ENSP00000460871</data>
+      <data key="d1">RSL1D1</data>
+    </node>
+    <node id="ENSG00000172062">
+      <data key="d0">9606.ENSP00000370083</data>
+      <data key="d1">SMN1</data>
+    </node>
+    <node id="ENSG00000172725">
+      <data key="d0">9606.ENSP00000340211</data>
+      <data key="d1">CORO1B</data>
+    </node>
+    <node id="ENSG00000173214">
+      <data key="d0">9606.ENSP00000500934</data>
+      <data key="d1">MFSD4B</data>
+    </node>
+    <node id="ENSG00000173409">
+      <data key="d0">9606.ENSP00000312458</data>
+      <data key="d1">ARV1</data>
+    </node>
+    <node id="ENSG00000173546">
+      <data key="d0">9606.ENSP00000312506</data>
+      <data key="d1">CSPG4</data>
+    </node>
+    <node id="ENSG00000173692">
+      <data key="d0">9606.ENSP00000309474</data>
+      <data key="d1">PSMD1</data>
+    </node>
+    <node id="ENSG00000174373">
+      <data key="d0">9606.ENSP00000490119</data>
+      <data key="d1">RALGAPA1</data>
+    </node>
+    <node id="ENSG00000174718">
+      <data key="d0">9606.ENSP00000310338</data>
+      <data key="d1">RESF1</data>
+    </node>
+    <node id="ENSG00000174891">
+      <data key="d0">9606.ENSP00000481697</data>
+      <data key="d1">RSRC1</data>
+    </node>
+    <node id="ENSG00000175198">
+      <data key="d0">9606.ENSP00000365462</data>
+      <data key="d1">PCCA</data>
+    </node>
+    <node id="ENSG00000175455">
+      <data key="d0">9606.ENSP00000420180</data>
+      <data key="d1">CCDC14</data>
+    </node>
+    <node id="ENSG00000175928">
+      <data key="d0">9606.ENSP00000314901</data>
+      <data key="d1">LRRN1</data>
+    </node>
+    <node id="ENSG00000176208">
+      <data key="d0">9606.ENSP00000313171</data>
+      <data key="d1">ATAD5</data>
+    </node>
+    <node id="ENSG00000176946">
+      <data key="d0">9606.ENSP00000385006</data>
+      <data key="d1">THAP4</data>
+    </node>
+    <node id="ENSG00000177000">
+      <data key="d0">9606.ENSP00000365770</data>
+      <data key="d1">MTHFR</data>
+    </node>
+    <node id="ENSG00000177119">
+      <data key="d0">9606.ENSP00000409126</data>
+      <data key="d1">ANO6</data>
+    </node>
+    <node id="ENSG00000177311">
+      <data key="d0">9606.ENSP00000426387</data>
+      <data key="d1">ZBTB38</data>
+    </node>
+    <node id="ENSG00000177556">
+      <data key="d0">9606.ENSP00000430598</data>
+      <data key="d1">ATOX1</data>
+    </node>
+    <node id="ENSG00000177669">
+      <data key="d0">9606.ENSP00000314196</data>
+      <data key="d1">MBOAT4</data>
+    </node>
+    <node id="ENSG00000178177">
+      <data key="d0">9606.ENSP00000371661</data>
+      <data key="d1">LCORL</data>
+    </node>
+    <node id="ENSG00000178295">
+      <data key="d0">9606.ENSP00000370653</data>
+      <data key="d1">GEN1</data>
+    </node>
+    <node id="ENSG00000178966">
+      <data key="d0">9606.ENSP00000317039</data>
+      <data key="d1">RMI1</data>
+    </node>
+    <node id="ENSG00000178974">
+      <data key="d0">9606.ENSP00000313159</data>
+      <data key="d1">FBXO34</data>
+    </node>
+    <node id="ENSG00000179029">
+      <data key="d0">9606.ENSP00000314116</data>
+      <data key="d1">TMEM107</data>
+    </node>
+    <node id="ENSG00000179240">
+      <data key="d0">9606.ENSP00000323821</data>
+      <data key="d1">GVQW3</data>
+    </node>
+    <node id="ENSG00000180011">
+      <data key="d0">9606.ENSP00000323678</data>
+      <data key="d1">ZADH2</data>
+    </node>
+    <node id="ENSG00000180370">
+      <data key="d0">9606.ENSP00000314067</data>
+      <data key="d1">PAK2</data>
+    </node>
+    <node id="ENSG00000181544">
+      <data key="d0">9606.ENSP00000498215</data>
+      <data key="d1">FANCB</data>
+    </node>
+    <node id="ENSG00000181555">
+      <data key="d0">9606.ENSP00000386759</data>
+      <data key="d1">SETD2</data>
+    </node>
+    <node id="ENSG00000181619">
+      <data key="d0">9606.ENSP00000378548</data>
+      <data key="d1">GPR135</data>
+    </node>
+    <node id="ENSG00000181626">
+      <data key="d0">9606.ENSP00000467740</data>
+      <data key="d1">ANKRD62</data>
+    </node>
+    <node id="ENSG00000182154">
+      <data key="d0">9606.ENSP00000360498</data>
+      <data key="d1">MRPL41</data>
+    </node>
+    <node id="ENSG00000182552">
+      <data key="d0">9606.ENSP00000388920</data>
+      <data key="d1">RWDD4</data>
+    </node>
+    <node id="ENSG00000182768">
+      <data key="d0">9606.ENSP00000368389</data>
+      <data key="d1">NGRN</data>
+    </node>
+    <node id="ENSG00000182934">
+      <data key="d0">9606.ENSP00000328023</data>
+      <data key="d1">SRPRA</data>
+    </node>
+    <node id="ENSG00000182963">
+      <data key="d0">9606.ENSP00000467201</data>
+      <data key="d1">GJC1</data>
+    </node>
+    <node id="ENSG00000182983">
+      <data key="d0">9606.ENSP00000329264</data>
+      <data key="d1">ZNF662</data>
+    </node>
+    <node id="ENSG00000182985">
+      <data key="d0">9606.ENSP00000329797</data>
+      <data key="d1">CADM1</data>
+    </node>
+    <node id="ENSG00000183474">
+      <data key="d0">9606.ENSP00000422907</data>
+      <data key="d1">GTF2H2C</data>
+    </node>
+    <node id="ENSG00000183850">
+      <data key="d0">9606.ENSP00000472959</data>
+      <data key="d1">ZNF730</data>
+    </node>
+    <node id="ENSG00000184220">
+      <data key="d0">9606.ENSP00000410396</data>
+      <data key="d1">CMSS1</data>
+    </node>
+    <node id="ENSG00000184408">
+      <data key="d0">9606.ENSP00000333496</data>
+      <data key="d1">KCND2</data>
+    </node>
+    <node id="ENSG00000184678">
+      <data key="d0">9606.ENSP00000358151</data>
+      <data key="d1">H2BC21</data>
+    </node>
+    <node id="ENSG00000184939">
+      <data key="d0">9606.ENSP00000460547</data>
+      <data key="d1">ZFP90</data>
+    </node>
+    <node id="ENSG00000185088">
+      <data key="d0">9606.ENSP00000331019</data>
+      <data key="d1">RPS27L</data>
+    </node>
+    <node id="ENSG00000185238">
+      <data key="d0">9606.ENSP00000331879</data>
+      <data key="d1">PRMT3</data>
+    </node>
+    <node id="ENSG00000185621">
+      <data key="d0">9606.ENSP00000410926</data>
+      <data key="d1">LMLN</data>
+    </node>
+    <node id="ENSG00000185630">
+      <data key="d0">9606.ENSP00000405890</data>
+      <data key="d1">PBX1</data>
+    </node>
+    <node id="ENSG00000185658">
+      <data key="d0">9606.ENSP00000330753</data>
+      <data key="d1">BRWD1</data>
+    </node>
+    <node id="ENSG00000185745">
+      <data key="d0">9606.ENSP00000360869</data>
+      <data key="d1">IFIT1</data>
+    </node>
+    <node id="ENSG00000185829">
+      <data key="d0">9606.ENSP00000337478</data>
+      <data key="d1">ARL17A</data>
+    </node>
+    <node id="ENSG00000185885">
+      <data key="d0">9606.ENSP00000330825</data>
+      <data key="d1">IFITM1</data>
+    </node>
+    <node id="ENSG00000186166">
+      <data key="d0">9606.ENSP00000334767</data>
+      <data key="d1">CCDC84</data>
+    </node>
+    <node id="ENSG00000187391">
+      <data key="d0">9606.ENSP00000346151</data>
+      <data key="d1">MAGI2</data>
+    </node>
+    <node id="ENSG00000187514">
+      <data key="d0">9606.ENSP00000344547</data>
+      <data key="d1">PTMA</data>
+    </node>
+    <node id="ENSG00000187742">
+      <data key="d0">9606.ENSP00000364965</data>
+      <data key="d1">SECISBP2</data>
+    </node>
+    <node id="ENSG00000188227">
+      <data key="d0">9606.ENSP00000487183</data>
+      <data key="d1">ZNF793</data>
+    </node>
+    <node id="ENSG00000188817">
+      <data key="d0">9606.ENSP00000341442</data>
+      <data key="d1">SNTN</data>
+    </node>
+    <node id="ENSG00000188994">
+      <data key="d0">9606.ENSP00000358590</data>
+      <data key="d1">ZNF292</data>
+    </node>
+    <node id="ENSG00000189350">
+      <data key="d0">9606.ENSP00000368876</data>
+      <data key="d1">TOGARAM2</data>
+    </node>
+    <node id="ENSG00000189403">
+      <data key="d0">9606.ENSP00000345347</data>
+      <data key="d1">HMGB1</data>
+    </node>
+    <node id="ENSG00000196236">
+      <data key="d0">9606.ENSP00000349658</data>
+      <data key="d1">XPNPEP3</data>
+    </node>
+    <node id="ENSG00000197056">
+      <data key="d0">9606.ENSP00000496876</data>
+      <data key="d1">ZMYM1</data>
+    </node>
+    <node id="ENSG00000197406">
+      <data key="d0">9606.ENSP00000427336</data>
+      <data key="d1">DIO3</data>
+    </node>
+    <node id="ENSG00000197457">
+      <data key="d0">9606.ENSP00000359070</data>
+      <data key="d1">STMN3</data>
+    </node>
+    <node id="ENSG00000197535">
+      <data key="d0">9606.ENSP00000382177</data>
+      <data key="d1">MYO5A</data>
+    </node>
+    <node id="ENSG00000197714">
+      <data key="d0">9606.ENSP00000353491</data>
+      <data key="d1">ZNF460</data>
+    </node>
+    <node id="ENSG00000197757">
+      <data key="d0">9606.ENSP00000243108</data>
+      <data key="d1">HOXC6</data>
+    </node>
+    <node id="ENSG00000197885">
+      <data key="d0">9606.ENSP00000393785</data>
+      <data key="d1">NKIRAS1</data>
+    </node>
+    <node id="ENSG00000197889">
+      <data key="d0">9606.ENSP00000384334</data>
+      <data key="d1">MEIG1</data>
+    </node>
+    <node id="ENSG00000197903">
+      <data key="d0">9606.ENSP00000349430</data>
+      <data key="d1">H2BC12</data>
+    </node>
+    <node id="ENSG00000198162">
+      <data key="d0">9606.ENSP00000348959</data>
+      <data key="d1">MAN1A2</data>
+    </node>
+    <node id="ENSG00000198185">
+      <data key="d0">9606.ENSP00000473194</data>
+      <data key="d1">ZNF334</data>
+    </node>
+    <node id="ENSG00000198363">
+      <data key="d0">9606.ENSP00000368767</data>
+      <data key="d1">ASPH</data>
+    </node>
+    <node id="ENSG00000198569">
+      <data key="d0">9606.ENSP00000442397</data>
+      <data key="d1">SLC34A3</data>
+    </node>
+    <node id="ENSG00000198677">
+      <data key="d0">9606.ENSP00000497948</data>
+      <data key="d1">TTC37</data>
+    </node>
+    <node id="ENSG00000198715">
+      <data key="d0">9606.ENSP00000354553</data>
+      <data key="d1">GLMP</data>
+    </node>
+    <node id="ENSG00000198783">
+      <data key="d0">9606.ENSP00000354518</data>
+      <data key="d1">ZNF830</data>
+    </node>
+    <node id="ENSG00000198791">
+      <data key="d0">9606.ENSP00000355279</data>
+      <data key="d1">CNOT7</data>
+    </node>
+    <node id="ENSG00000204130">
+      <data key="d0">9606.ENSP00000373420</data>
+      <data key="d1">RUFY2</data>
+    </node>
+    <node id="ENSG00000204147">
+      <data key="d0">9606.ENSP00000495463</data>
+      <data key="d1">ASAH2B</data>
+    </node>
+    <node id="ENSG00000204186">
+      <data key="d0">9606.ENSP00000497308</data>
+      <data key="d1">ZDBF2</data>
+    </node>
+    <node id="ENSG00000204272">
+      <data key="d0">9606.ENSP00000489583</data>
+      <data key="d1">NBDY</data>
+    </node>
+    <node id="ENSG00000204406">
+      <data key="d0">9606.ENSP00000386049</data>
+      <data key="d1">MBD5</data>
+    </node>
+    <node id="ENSG00000204842">
+      <data key="d0">9606.ENSP00000446576</data>
+      <data key="d1">ATXN2</data>
+    </node>
+    <node id="ENSG00000205560">
+      <data key="d0">9606.ENSP00000379011</data>
+      <data key="d1">CPT1B</data>
+    </node>
+    <node id="ENSG00000205571">
+      <data key="d0">9606.ENSP00000370119</data>
+      <data key="d1">SMN2</data>
+    </node>
+    <node id="ENSG00000213967">
+      <data key="d0">9606.ENSP00000471516</data>
+      <data key="d1">ZNF726</data>
+    </node>
+    <node id="ENSG00000213977">
+      <data key="d0">9606.ENSP00000225525</data>
+      <data key="d1">TAX1BP3</data>
+    </node>
+    <node id="ENSG00000214029">
+      <data key="d0">9606.ENSP00000437590</data>
+      <data key="d1">ZNF891</data>
+    </node>
+    <node id="ENSG00000215717">
+      <data key="d0">9606.ENSP00000342148</data>
+      <data key="d1">TMEM167B</data>
+    </node>
+    <node id="ENSG00000221867">
+      <data key="d0">9606.ENSP00000473093</data>
+      <data key="d1">MAGEA3</data>
+    </node>
+    <node id="ENSG00000223953">
+      <data key="d0">9606.ENSP00000431140</data>
+      <data key="d1">C1QTNF5</data>
+    </node>
+    <node id="ENSG00000226174">
+      <data key="d0">9606.ENSP00000397002</data>
+      <data key="d1">TEX22</data>
+    </node>
+    <node id="ENSG00000228696">
+      <data key="d0">9606.ENSP00000460539</data>
+      <data key="d1">ARL17B</data>
+    </node>
+    <node id="ENSG00000231887">
+      <data key="d0">9606.ENSP00000479168</data>
+      <data key="d1">PRH1</data>
+    </node>
+    <node id="ENSG00000234545">
+      <data key="d0">9606.ENSP00000398401</data>
+      <data key="d1">FAM133B</data>
+    </node>
+    <node id="ENSG00000235718">
+      <data key="d0">9606.ENSP00000481824</data>
+      <data key="d1">MFRP</data>
+    </node>
+    <node id="ENSG00000240720">
+      <data key="d0">9606.ENSP00000405987</data>
+      <data key="d1">LRRD1</data>
+    </node>
+    <node id="ENSG00000244754">
+      <data key="d0">9606.ENSP00000382328</data>
+      <data key="d1">N4BP2L2</data>
+    </node>
+    <node id="ENSG00000247595">
+      <data key="d0">9606.ENSP00000489616</data>
+      <data key="d1">SPTY2D1OS</data>
+    </node>
+    <node id="ENSG00000251201">
+      <data key="d0">9606.ENSP00000282382</data>
+      <data key="d1">TMED7-TICAM2</data>
+    </node>
+    <node id="ENSG00000253293">
+      <data key="d0">9606.ENSP00000283921</data>
+      <data key="d1">HOXA10</data>
+    </node>
+    <node id="ENSG00000253710">
+      <data key="d0">9606.ENSP00000430236</data>
+      <data key="d1">ALG11</data>
+    </node>
+    <node id="ENSG00000254221">
+      <data key="d0">9606.ENSP00000429273</data>
+      <data key="d1">PCDHGB1</data>
+    </node>
+    <node id="ENSG00000254726">
+      <data key="d0">9606.ENSP00000432845</data>
+      <data key="d1">MEX3A</data>
+    </node>
+    <node id="ENSG00000256762">
+      <data key="d0">9606.ENSP00000443168</data>
+      <data key="d1">STH</data>
+    </node>
+    <node id="ENSG00000272325">
+      <data key="d0">9606.ENSP00000476119</data>
+      <data key="d1">NUDT3</data>
+    </node>
+    <node id="ENSG00000276234">
+      <data key="d0">9606.ENSP00000481091</data>
+      <data key="d1">TADA2A</data>
+    </node>
+    <node id="ENSG00000276368">
+      <data key="d0">9606.ENSP00000328484</data>
+      <data key="d1">H2AC14</data>
+    </node>
+    <edge source="ENSG00000002549" target="ENSG00000185745">
+      <data key="d2">0.448</data>
+    </edge>
+    <edge source="ENSG00000002549" target="ENSG00000109805">
+      <data key="d2">0.538</data>
+    </edge>
+    <edge source="ENSG00000002549" target="ENSG00000178177">
+      <data key="d2">0.613</data>
+    </edge>
+    <edge source="ENSG00000002549" target="ENSG00000196236">
+      <data key="d2">0.618</data>
+    </edge>
+    <edge source="ENSG00000002549" target="ENSG00000115415">
+      <data key="d2">0.779</data>
+    </edge>
+    <edge source="ENSG00000005471" target="ENSG00000137574">
+      <data key="d2">0.431</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000116731">
+      <data key="d2">0.436</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000118482">
+      <data key="d2">0.557</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000055609">
+      <data key="d2">0.753</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000100393">
+      <data key="d2">0.749</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000126070">
+      <data key="d2">0.463</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000143499">
+      <data key="d2">0.497</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000106462">
+      <data key="d2">0.51</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000188994">
+      <data key="d2">0.525</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000116539">
+      <data key="d2">0.635</data>
+    </edge>
+    <edge source="ENSG00000005483" target="ENSG00000181555">
+      <data key="d2">0.66</data>
+    </edge>
+    <edge source="ENSG00000005700" target="ENSG00000133703">
+      <data key="d2">0.46</data>
+    </edge>
+    <edge source="ENSG00000008294" target="ENSG00000175455">
+      <data key="d2">0.424</data>
+    </edge>
+    <edge source="ENSG00000009694" target="ENSG00000147010">
+      <data key="d2">0.402</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000107290">
+      <data key="d2">0.608</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000125944">
+      <data key="d2">0.714</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000171490">
+      <data key="d2">0.409</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000109971">
+      <data key="d2">0.606</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000162063">
+      <data key="d2">0.64</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000119314">
+      <data key="d2">0.683</data>
+    </edge>
+    <edge source="ENSG00000015479" target="ENSG00000204842">
+      <data key="d2">0.762</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000080345">
+      <data key="d2">0.402</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000109971">
+      <data key="d2">0.422</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000072571">
+      <data key="d2">0.433</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000154153">
+      <data key="d2">0.483</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000121749">
+      <data key="d2">0.491</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000162409">
+      <data key="d2">0.637</data>
+    </edge>
+    <edge source="ENSG00000023287" target="ENSG00000025039">
+      <data key="d2">0.638</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000121152">
+      <data key="d2">0.597</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000109805">
+      <data key="d2">0.824</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000138778">
+      <data key="d2">0.828</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000151725">
+      <data key="d2">0.429</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000148773">
+      <data key="d2">0.705</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000138180">
+      <data key="d2">0.877</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000138182">
+      <data key="d2">0.704</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000072571">
+      <data key="d2">0.907</data>
+    </edge>
+    <edge source="ENSG00000024526" target="ENSG00000137804">
+      <data key="d2">0.711</data>
+    </edge>
+    <edge source="ENSG00000025039" target="ENSG00000113732">
+      <data key="d2">0.573</data>
+    </edge>
+    <edge source="ENSG00000025039" target="ENSG00000162409">
+      <data key="d2">0.714</data>
+    </edge>
+    <edge source="ENSG00000033030" target="ENSG00000186166">
+      <data key="d2">0.415</data>
+    </edge>
+    <edge source="ENSG00000033030" target="ENSG00000198677">
+      <data key="d2">0.451</data>
+    </edge>
+    <edge source="ENSG00000033030" target="ENSG00000147905">
+      <data key="d2">0.903</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000080345">
+      <data key="d2">0.468</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000137563">
+      <data key="d2">0.413</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000163781">
+      <data key="d2">0.542</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000138376">
+      <data key="d2">0.571</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000083093">
+      <data key="d2">0.456</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000149311">
+      <data key="d2">0.799</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000176208">
+      <data key="d2">0.945</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000178966">
+      <data key="d2">0.46</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000139618">
+      <data key="d2">0.488</data>
+    </edge>
+    <edge source="ENSG00000035928" target="ENSG00000102977">
+      <data key="d2">0.504</data>
+    </edge>
+    <edge source="ENSG00000048828" target="ENSG00000134744">
+      <data key="d2">0.47</data>
+    </edge>
+    <edge source="ENSG00000048828" target="ENSG00000204842">
+      <data key="d2">0.455</data>
+    </edge>
+    <edge source="ENSG00000048828" target="ENSG00000119314">
+      <data key="d2">0.477</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000089048">
+      <data key="d2">0.892</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000055044">
+      <data key="d2">0.992</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000164163">
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000165271">
+      <data key="d2">0.863</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000147679">
+      <data key="d2">0.493</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000130305">
+      <data key="d2">0.41</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000185238">
+      <data key="d2">0.54</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000129317">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000124225">
+      <data key="d2">0.521</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000184220">
+      <data key="d2">0.445</data>
+    </edge>
+    <edge source="ENSG00000052749" target="ENSG00000171490">
+      <data key="d2">0.97</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000089048">
+      <data key="d2">0.884</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000137574">
+      <data key="d2">0.739</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000163832">
+      <data key="d2">0.404</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000185238">
+      <data key="d2">0.423</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000129317">
+      <data key="d2">0.438</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000172062">
+      <data key="d2">0.446</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000187742">
+      <data key="d2">0.505</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000130305">
+      <data key="d2">0.609</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000164163">
+      <data key="d2">0.628</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000138385">
+      <data key="d2">0.708</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000174891">
+      <data key="d2">0.764</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000170540">
+      <data key="d2">0.798</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000147679">
+      <data key="d2">0.871</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000185088">
+      <data key="d2">0.874</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000104356">
+      <data key="d2">0.901</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000171490">
+      <data key="d2">0.996</data>
+    </edge>
+    <edge source="ENSG00000055044" target="ENSG00000165271">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000116731">
+      <data key="d2">0.618</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000133703">
+      <data key="d2">0.756</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000083093">
+      <data key="d2">0.407</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000204406">
+      <data key="d2">0.403</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000143499">
+      <data key="d2">0.421</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000127481">
+      <data key="d2">0.432</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000126070">
+      <data key="d2">0.468</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000162409">
+      <data key="d2">0.506</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000116539">
+      <data key="d2">0.544</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000149311">
+      <data key="d2">0.576</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000139618">
+      <data key="d2">0.582</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000276368">
+      <data key="d2">0.602</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000181555">
+      <data key="d2">0.631</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000184678">
+      <data key="d2">0.72</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000106462">
+      <data key="d2">0.792</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000100393">
+      <data key="d2">0.884</data>
+    </edge>
+    <edge source="ENSG00000055609" target="ENSG00000197903">
+      <data key="d2">0.924</data>
+    </edge>
+    <edge source="ENSG00000055732" target="ENSG00000153898">
+      <data key="d2">0.983</data>
+    </edge>
+    <edge source="ENSG00000058668" target="ENSG00000143153">
+      <data key="d2">0.432</data>
+    </edge>
+    <edge source="ENSG00000064218" target="ENSG00000071794">
+      <data key="d2">0.481</data>
+    </edge>
+    <edge source="ENSG00000064218" target="ENSG00000170122">
+      <data key="d2">0.529</data>
+    </edge>
+    <edge source="ENSG00000064787" target="ENSG00000181555">
+      <data key="d2">0.405</data>
+    </edge>
+    <edge source="ENSG00000065243" target="ENSG00000134318">
+      <data key="d2">0.688</data>
+    </edge>
+    <edge source="ENSG00000065243" target="ENSG00000065613">
+      <data key="d2">0.52</data>
+    </edge>
+    <edge source="ENSG00000065243" target="ENSG00000100592">
+      <data key="d2">0.503</data>
+    </edge>
+    <edge source="ENSG00000065243" target="ENSG00000170324">
+      <data key="d2">0.539</data>
+    </edge>
+    <edge source="ENSG00000065243" target="ENSG00000116539">
+      <data key="d2">0.551</data>
+    </edge>
+    <edge source="ENSG00000065613" target="ENSG00000134318">
+      <data key="d2">0.514</data>
+    </edge>
+    <edge source="ENSG00000065613" target="ENSG00000100592">
+      <data key="d2">0.42</data>
+    </edge>
+    <edge source="ENSG00000065613" target="ENSG00000168724">
+      <data key="d2">0.454</data>
+    </edge>
+    <edge source="ENSG00000065809" target="ENSG00000134627">
+      <data key="d2">0.401</data>
+    </edge>
+    <edge source="ENSG00000065809" target="ENSG00000152601">
+      <data key="d2">0.493</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000100393">
+      <data key="d2">0.624</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000152601">
+      <data key="d2">0.602</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000197903">
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000184678">
+      <data key="d2">0.476</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000077254">
+      <data key="d2">0.406</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000118260">
+      <data key="d2">0.419</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000162601">
+      <data key="d2">0.439</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000109971">
+      <data key="d2">0.514</data>
+    </edge>
+    <edge source="ENSG00000066427" target="ENSG00000204842">
+      <data key="d2">0.993</data>
+    </edge>
+    <edge source="ENSG00000066777" target="ENSG00000197535">
+      <data key="d2">0.577</data>
+    </edge>
+    <edge source="ENSG00000067248" target="ENSG00000089048">
+      <data key="d2">0.419</data>
+    </edge>
+    <edge source="ENSG00000067248" target="ENSG00000165271">
+      <data key="d2">0.402</data>
+    </edge>
+    <edge source="ENSG00000067248" target="ENSG00000160551">
+      <data key="d2">0.403</data>
+    </edge>
+    <edge source="ENSG00000067248" target="ENSG00000164163">
+      <data key="d2">0.575</data>
+    </edge>
+    <edge source="ENSG00000067248" target="ENSG00000185088">
+      <data key="d2">0.612</data>
+    </edge>
+    <edge source="ENSG00000068489" target="ENSG00000138180">
+      <data key="d2">0.406</data>
+    </edge>
+    <edge source="ENSG00000068784" target="ENSG00000145743">
+      <data key="d2">0.531</data>
+    </edge>
+    <edge source="ENSG00000069275" target="ENSG00000117280">
+      <data key="d2">0.97</data>
+    </edge>
+    <edge source="ENSG00000069275" target="ENSG00000158715">
+      <data key="d2">0.823</data>
+    </edge>
+    <edge source="ENSG00000070081" target="ENSG00000177669">
+      <data key="d2">0.447</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000163781">
+      <data key="d2">0.417</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000149311">
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000144554">
+      <data key="d2">0.552</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000162063">
+      <data key="d2">0.409</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000136104">
+      <data key="d2">0.446</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000139618">
+      <data key="d2">0.549</data>
+    </edge>
+    <edge source="ENSG00000071794" target="ENSG00000176208">
+      <data key="d2">0.669</data>
+    </edge>
+    <edge source="ENSG00000072415" target="ENSG00000116903">
+      <data key="d2">0.423</data>
+    </edge>
+    <edge source="ENSG00000072415" target="ENSG00000134318">
+      <data key="d2">0.442</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000092140">
+      <data key="d2">0.408</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000121152">
+      <data key="d2">0.628</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000109805">
+      <data key="d2">0.909</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000133703">
+      <data key="d2">0.51</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000138376">
+      <data key="d2">0.591</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000083093">
+      <data key="d2">0.497</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000138778">
+      <data key="d2">0.926</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000149311">
+      <data key="d2">0.498</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000151725">
+      <data key="d2">0.605</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000106462">
+      <data key="d2">0.493</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000148773">
+      <data key="d2">0.896</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000138180">
+      <data key="d2">0.926</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000138182">
+      <data key="d2">0.522</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000139618">
+      <data key="d2">0.929</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000162063">
+      <data key="d2">0.427</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000119314">
+      <data key="d2">0.678</data>
+    </edge>
+    <edge source="ENSG00000072571" target="ENSG00000137804">
+      <data key="d2">0.896</data>
+    </edge>
+    <edge source="ENSG00000072803" target="ENSG00000084093">
+      <data key="d2">0.792</data>
+    </edge>
+    <edge source="ENSG00000072803" target="ENSG00000170242">
+      <data key="d2">0.846</data>
+    </edge>
+    <edge source="ENSG00000072803" target="ENSG00000162063">
+      <data key="d2">0.874</data>
+    </edge>
+    <edge source="ENSG00000072832" target="ENSG00000114120">
+      <data key="d2">0.423</data>
+    </edge>
+    <edge source="ENSG00000072832" target="ENSG00000197457">
+      <data key="d2">0.464</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000213977">
+      <data key="d2">0.586</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000100393">
+      <data key="d2">0.513</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000106462">
+      <data key="d2">0.69</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000276368">
+      <data key="d2">0.551</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000197903">
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000184678">
+      <data key="d2">0.618</data>
+    </edge>
+    <edge source="ENSG00000076108" target="ENSG00000140320">
+      <data key="d2">0.745</data>
+    </edge>
+    <edge source="ENSG00000077254" target="ENSG00000162601">
+      <data key="d2">0.496</data>
+    </edge>
+    <edge source="ENSG00000077254" target="ENSG00000162063">
+      <data key="d2">0.535</data>
+    </edge>
+    <edge source="ENSG00000078674" target="ENSG00000101752">
+      <data key="d2">0.832</data>
+    </edge>
+    <edge source="ENSG00000078674" target="ENSG00000156876">
+      <data key="d2">0.492</data>
+    </edge>
+    <edge source="ENSG00000078674" target="ENSG00000112701">
+      <data key="d2">0.446</data>
+    </edge>
+    <edge source="ENSG00000078674" target="ENSG00000116539">
+      <data key="d2">0.547</data>
+    </edge>
+    <edge source="ENSG00000078674" target="ENSG00000175455">
+      <data key="d2">0.751</data>
+    </edge>
+    <edge source="ENSG00000079482" target="ENSG00000166333">
+      <data key="d2">0.472</data>
+    </edge>
+    <edge source="ENSG00000079482" target="ENSG00000147010">
+      <data key="d2">0.576</data>
+    </edge>
+    <edge source="ENSG00000080345" target="ENSG00000178966">
+      <data key="d2">0.404</data>
+    </edge>
+    <edge source="ENSG00000080345" target="ENSG00000197903">
+      <data key="d2">0.527</data>
+    </edge>
+    <edge source="ENSG00000080345" target="ENSG00000184678">
+      <data key="d2">0.591</data>
+    </edge>
+    <edge source="ENSG00000080345" target="ENSG00000138376">
+      <data key="d2">0.646</data>
+    </edge>
+    <edge source="ENSG00000080345" target="ENSG00000149311">
+      <data key="d2">0.823</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000133703">
+      <data key="d2">0.516</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000163781">
+      <data key="d2">0.504</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000138376">
+      <data key="d2">0.987</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000175198">
+      <data key="d2">0.421</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000100439">
+      <data key="d2">0.495</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000129317">
+      <data key="d2">0.601</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000184678">
+      <data key="d2">0.614</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000151240">
+      <data key="d2">0.653</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000178966">
+      <data key="d2">0.685</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000178295">
+      <data key="d2">0.745</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000181544">
+      <data key="d2">0.866</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000119421">
+      <data key="d2">0.945</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000149311">
+      <data key="d2">0.945</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000144554">
+      <data key="d2">0.991</data>
+    </edge>
+    <edge source="ENSG00000083093" target="ENSG00000139618">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000084093" target="ENSG00000100393">
+      <data key="d2">0.766</data>
+    </edge>
+    <edge source="ENSG00000084093" target="ENSG00000197903">
+      <data key="d2">0.436</data>
+    </edge>
+    <edge source="ENSG00000084093" target="ENSG00000184678">
+      <data key="d2">0.564</data>
+    </edge>
+    <edge source="ENSG00000084093" target="ENSG00000276368">
+      <data key="d2">0.588</data>
+    </edge>
+    <edge source="ENSG00000084093" target="ENSG00000106462">
+      <data key="d2">0.721</data>
+    </edge>
+    <edge source="ENSG00000084093" target="ENSG00000118260">
+      <data key="d2">0.731</data>
+    </edge>
+    <edge source="ENSG00000089048" target="ENSG00000184220">
+      <data key="d2">0.669</data>
+    </edge>
+    <edge source="ENSG00000089048" target="ENSG00000147679">
+      <data key="d2">0.787</data>
+    </edge>
+    <edge source="ENSG00000089048" target="ENSG00000171490">
+      <data key="d2">0.86</data>
+    </edge>
+    <edge source="ENSG00000089048" target="ENSG00000165271">
+      <data key="d2">0.994</data>
+    </edge>
+    <edge source="ENSG00000089060" target="ENSG00000137824">
+      <data key="d2">0.413</data>
+    </edge>
+    <edge source="ENSG00000089335" target="ENSG00000133114">
+      <data key="d2">0.412</data>
+    </edge>
+    <edge source="ENSG00000089916" target="ENSG00000129003">
+      <data key="d2">0.423</data>
+    </edge>
+    <edge source="ENSG00000089916" target="ENSG00000171490">
+      <data key="d2">0.462</data>
+    </edge>
+    <edge source="ENSG00000089916" target="ENSG00000165271">
+      <data key="d2">0.852</data>
+    </edge>
+    <edge source="ENSG00000091409" target="ENSG00000133703">
+      <data key="d2">0.474</data>
+    </edge>
+    <edge source="ENSG00000091409" target="ENSG00000170017">
+      <data key="d2">0.571</data>
+    </edge>
+    <edge source="ENSG00000091409" target="ENSG00000166333">
+      <data key="d2">0.456</data>
+    </edge>
+    <edge source="ENSG00000092140" target="ENSG00000151240">
+      <data key="d2">0.425</data>
+    </edge>
+    <edge source="ENSG00000092140" target="ENSG00000138778">
+      <data key="d2">0.443</data>
+    </edge>
+    <edge source="ENSG00000092140" target="ENSG00000137804">
+      <data key="d2">0.449</data>
+    </edge>
+    <edge source="ENSG00000092140" target="ENSG00000129480">
+      <data key="d2">0.502</data>
+    </edge>
+    <edge source="ENSG00000092140" target="ENSG00000138182">
+      <data key="d2">0.614</data>
+    </edge>
+    <edge source="ENSG00000095787" target="ENSG00000118482">
+      <data key="d2">0.541</data>
+    </edge>
+    <edge source="ENSG00000095787" target="ENSG00000147905">
+      <data key="d2">0.449</data>
+    </edge>
+    <edge source="ENSG00000095787" target="ENSG00000197903">
+      <data key="d2">0.641</data>
+    </edge>
+    <edge source="ENSG00000099785" target="ENSG00000132824">
+      <data key="d2">0.538</data>
+    </edge>
+    <edge source="ENSG00000099785" target="ENSG00000197903">
+      <data key="d2">0.533</data>
+    </edge>
+    <edge source="ENSG00000099785" target="ENSG00000165406">
+      <data key="d2">0.522</data>
+    </edge>
+    <edge source="ENSG00000100284" target="ENSG00000164506">
+      <data key="d2">0.455</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000116731">
+      <data key="d2">0.713</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000133703">
+      <data key="d2">0.757</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000137574">
+      <data key="d2">0.794</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000163781">
+      <data key="d2">0.545</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000112242">
+      <data key="d2">0.645</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000276234">
+      <data key="d2">0.416</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000164434">
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000189403">
+      <data key="d2">0.456</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000116539">
+      <data key="d2">0.494</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000276368">
+      <data key="d2">0.507</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000126070">
+      <data key="d2">0.54</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000134318">
+      <data key="d2">0.606</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000147133">
+      <data key="d2">0.616</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000125968">
+      <data key="d2">0.641</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000185630">
+      <data key="d2">0.68</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000109971">
+      <data key="d2">0.691</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000181555">
+      <data key="d2">0.761</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000187514">
+      <data key="d2">0.775</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000162601">
+      <data key="d2">0.839</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000149311">
+      <data key="d2">0.904</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000197903">
+      <data key="d2">0.959</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000184678">
+      <data key="d2">0.96</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000106462">
+      <data key="d2">0.963</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000148737">
+      <data key="d2">0.975</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000115415">
+      <data key="d2">0.998</data>
+    </edge>
+    <edge source="ENSG00000100393" target="ENSG00000118260">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000100439" target="ENSG00000107362">
+      <data key="d2">0.43</data>
+    </edge>
+    <edge source="ENSG00000100442" target="ENSG00000174891">
+      <data key="d2">0.407</data>
+    </edge>
+    <edge source="ENSG00000100442" target="ENSG00000129534">
+      <data key="d2">0.439</data>
+    </edge>
+    <edge source="ENSG00000100592" target="ENSG00000134318">
+      <data key="d2">0.574</data>
+    </edge>
+    <edge source="ENSG00000101752" target="ENSG00000175455">
+      <data key="d2">0.691</data>
+    </edge>
+    <edge source="ENSG00000102977" target="ENSG00000276368">
+      <data key="d2">0.499</data>
+    </edge>
+    <edge source="ENSG00000102977" target="ENSG00000197903">
+      <data key="d2">0.499</data>
+    </edge>
+    <edge source="ENSG00000102977" target="ENSG00000184678">
+      <data key="d2">0.529</data>
+    </edge>
+    <edge source="ENSG00000103274" target="ENSG00000163798">
+      <data key="d2">0.418</data>
+    </edge>
+    <edge source="ENSG00000103274" target="ENSG00000164163">
+      <data key="d2">0.601</data>
+    </edge>
+    <edge source="ENSG00000104356" target="ENSG00000137574">
+      <data key="d2">0.407</data>
+    </edge>
+    <edge source="ENSG00000104356" target="ENSG00000126070">
+      <data key="d2">0.721</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000116731">
+      <data key="d2">0.416</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000121152">
+      <data key="d2">0.597</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000109805">
+      <data key="d2">0.505</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000133703">
+      <data key="d2">0.673</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000112242">
+      <data key="d2">0.732</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000138778">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000149311">
+      <data key="d2">0.589</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000253293">
+      <data key="d2">0.564</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000134627">
+      <data key="d2">0.454</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000118260">
+      <data key="d2">0.414</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000115415">
+      <data key="d2">0.415</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000138180">
+      <data key="d2">0.463</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000107614">
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000139618">
+      <data key="d2">0.552</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000143499">
+      <data key="d2">0.562</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000276368">
+      <data key="d2">0.574</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000137804">
+      <data key="d2">0.585</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000126070">
+      <data key="d2">0.587</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000140320">
+      <data key="d2">0.603</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000148773">
+      <data key="d2">0.619</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000185238">
+      <data key="d2">0.633</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000185630">
+      <data key="d2">0.64</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000184678">
+      <data key="d2">0.886</data>
+    </edge>
+    <edge source="ENSG00000106462" target="ENSG00000197903">
+      <data key="d2">0.928</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000163781">
+      <data key="d2">0.427</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000175455">
+      <data key="d2">0.428</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000138376">
+      <data key="d2">0.463</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000205571">
+      <data key="d2">0.482</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000149311">
+      <data key="d2">0.52</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000139618">
+      <data key="d2">0.533</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000181555">
+      <data key="d2">0.584</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000172062">
+      <data key="d2">0.611</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000144554">
+      <data key="d2">0.648</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000147905">
+      <data key="d2">0.698</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000118482">
+      <data key="d2">0.722</data>
+    </edge>
+    <edge source="ENSG00000107290" target="ENSG00000204842">
+      <data key="d2">0.79</data>
+    </edge>
+    <edge source="ENSG00000107362" target="ENSG00000133703">
+      <data key="d2">0.535</data>
+    </edge>
+    <edge source="ENSG00000107438" target="ENSG00000177556">
+      <data key="d2">0.431</data>
+    </edge>
+    <edge source="ENSG00000107614" target="ENSG00000134627">
+      <data key="d2">0.425</data>
+    </edge>
+    <edge source="ENSG00000107614" target="ENSG00000130305">
+      <data key="d2">0.82</data>
+    </edge>
+    <edge source="ENSG00000108576" target="ENSG00000118260">
+      <data key="d2">0.449</data>
+    </edge>
+    <edge source="ENSG00000108576" target="ENSG00000177000">
+      <data key="d2">0.679</data>
+    </edge>
+    <edge source="ENSG00000108588" target="ENSG00000164163">
+      <data key="d2">0.435</data>
+    </edge>
+    <edge source="ENSG00000108588" target="ENSG00000109971">
+      <data key="d2">0.554</data>
+    </edge>
+    <edge source="ENSG00000109184" target="ENSG00000166266">
+      <data key="d2">0.648</data>
+    </edge>
+    <edge source="ENSG00000109689" target="ENSG00000162409">
+      <data key="d2">0.786</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000121152">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000162063">
+      <data key="d2">0.474</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000144554">
+      <data key="d2">0.512</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000129534">
+      <data key="d2">0.752</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000138182">
+      <data key="d2">0.823</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000151725">
+      <data key="d2">0.846</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000178177">
+      <data key="d2">0.864</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000138180">
+      <data key="d2">0.899</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000148773">
+      <data key="d2">0.908</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000138778">
+      <data key="d2">0.92</data>
+    </edge>
+    <edge source="ENSG00000109805" target="ENSG00000137804">
+      <data key="d2">0.931</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000164070">
+      <data key="d2">0.95</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000173692">
+      <data key="d2">0.61</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000187514">
+      <data key="d2">0.447</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000189403">
+      <data key="d2">0.724</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000117280">
+      <data key="d2">0.426</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000162409">
+      <data key="d2">0.552</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000125944">
+      <data key="d2">0.413</data>
+    </edge>
+    <edge source="ENSG00000109971" target="ENSG00000165219">
+      <data key="d2">0.552</data>
+    </edge>
+    <edge source="ENSG00000111481" target="ENSG00000122218">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000111481" target="ENSG00000158623">
+      <data key="d2">0.997</data>
+    </edge>
+    <edge source="ENSG00000111481" target="ENSG00000177556">
+      <data key="d2">0.644</data>
+    </edge>
+    <edge source="ENSG00000111880" target="ENSG00000137574">
+      <data key="d2">0.574</data>
+    </edge>
+    <edge source="ENSG00000111880" target="ENSG00000198162">
+      <data key="d2">0.412</data>
+    </edge>
+    <edge source="ENSG00000111962" target="ENSG00000173546">
+      <data key="d2">0.456</data>
+    </edge>
+    <edge source="ENSG00000112146" target="ENSG00000162063">
+      <data key="d2">0.479</data>
+    </edge>
+    <edge source="ENSG00000112242" target="ENSG00000133703">
+      <data key="d2">0.427</data>
+    </edge>
+    <edge source="ENSG00000112242" target="ENSG00000163781">
+      <data key="d2">0.567</data>
+    </edge>
+    <edge source="ENSG00000112242" target="ENSG00000138180">
+      <data key="d2">0.407</data>
+    </edge>
+    <edge source="ENSG00000112242" target="ENSG00000149311">
+      <data key="d2">0.493</data>
+    </edge>
+    <edge source="ENSG00000112242" target="ENSG00000162063">
+      <data key="d2">0.543</data>
+    </edge>
+    <edge source="ENSG00000112242" target="ENSG00000126070">
+      <data key="d2">0.559</data>
+    </edge>
+    <edge source="ENSG00000112701" target="ENSG00000118482">
+      <data key="d2">0.602</data>
+    </edge>
+    <edge source="ENSG00000112701" target="ENSG00000121741">
+      <data key="d2">0.699</data>
+    </edge>
+    <edge source="ENSG00000112701" target="ENSG00000204186">
+      <data key="d2">0.785</data>
+    </edge>
+    <edge source="ENSG00000113732" target="ENSG00000177556">
+      <data key="d2">0.427</data>
+    </edge>
+    <edge source="ENSG00000115085" target="ENSG00000174373">
+      <data key="d2">0.401</data>
+    </edge>
+    <edge source="ENSG00000115085" target="ENSG00000134318">
+      <data key="d2">0.429</data>
+    </edge>
+    <edge source="ENSG00000115085" target="ENSG00000180370">
+      <data key="d2">0.458</data>
+    </edge>
+    <edge source="ENSG00000115085" target="ENSG00000115415">
+      <data key="d2">0.467</data>
+    </edge>
+    <edge source="ENSG00000115085" target="ENSG00000149311">
+      <data key="d2">0.469</data>
+    </edge>
+    <edge source="ENSG00000115085" target="ENSG00000166349">
+      <data key="d2">0.544</data>
+    </edge>
+    <edge source="ENSG00000115137" target="ENSG00000272325">
+      <data key="d2">0.588</data>
+    </edge>
+    <edge source="ENSG00000115137" target="ENSG00000168916">
+      <data key="d2">0.606</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000133703">
+      <data key="d2">0.43</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000138760">
+      <data key="d2">0.469</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000149311">
+      <data key="d2">0.433</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000166349">
+      <data key="d2">0.439</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000185885">
+      <data key="d2">0.845</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000189403">
+      <data key="d2">0.658</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000147133">
+      <data key="d2">0.474</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000119397">
+      <data key="d2">0.504</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000185630">
+      <data key="d2">0.518</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000121741">
+      <data key="d2">0.566</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000198791">
+      <data key="d2">0.658</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000118260">
+      <data key="d2">0.743</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000185745">
+      <data key="d2">0.945</data>
+    </edge>
+    <edge source="ENSG00000115415" target="ENSG00000119922">
+      <data key="d2">0.963</data>
+    </edge>
+    <edge source="ENSG00000115993" target="ENSG00000134709">
+      <data key="d2">0.403</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000116731">
+      <data key="d2">0.609</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000118482">
+      <data key="d2">0.648</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000185658">
+      <data key="d2">0.428</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000185238">
+      <data key="d2">0.401</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000143499">
+      <data key="d2">0.681</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000188994">
+      <data key="d2">0.553</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000174373">
+      <data key="d2">0.46</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000147133">
+      <data key="d2">0.489</data>
+    </edge>
+    <edge source="ENSG00000116539" target="ENSG00000181555">
+      <data key="d2">0.815</data>
+    </edge>
+    <edge source="ENSG00000116731" target="ENSG00000139618">
+      <data key="d2">0.423</data>
+    </edge>
+    <edge source="ENSG00000116731" target="ENSG00000181555">
+      <data key="d2">0.645</data>
+    </edge>
+    <edge source="ENSG00000116903" target="ENSG00000164506">
+      <data key="d2">0.461</data>
+    </edge>
+    <edge source="ENSG00000116903" target="ENSG00000165219">
+      <data key="d2">0.412</data>
+    </edge>
+    <edge source="ENSG00000116903" target="ENSG00000167994">
+      <data key="d2">0.51</data>
+    </edge>
+    <edge source="ENSG00000116903" target="ENSG00000197535">
+      <data key="d2">0.665</data>
+    </edge>
+    <edge source="ENSG00000117280" target="ENSG00000129003">
+      <data key="d2">0.462</data>
+    </edge>
+    <edge source="ENSG00000117280" target="ENSG00000158715">
+      <data key="d2">0.771</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000133703">
+      <data key="d2">0.445</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000149311">
+      <data key="d2">0.735</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000134627">
+      <data key="d2">0.532</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000126070">
+      <data key="d2">0.528</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000125968">
+      <data key="d2">0.593</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000132446">
+      <data key="d2">0.513</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000121057">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000185630">
+      <data key="d2">0.521</data>
+    </edge>
+    <edge source="ENSG00000118260" target="ENSG00000148737">
+      <data key="d2">0.714</data>
+    </edge>
+    <edge source="ENSG00000118482" target="ENSG00000188994">
+      <data key="d2">0.413</data>
+    </edge>
+    <edge source="ENSG00000118482" target="ENSG00000174373">
+      <data key="d2">0.453</data>
+    </edge>
+    <edge source="ENSG00000118482" target="ENSG00000170242">
+      <data key="d2">0.492</data>
+    </edge>
+    <edge source="ENSG00000118482" target="ENSG00000181555">
+      <data key="d2">0.766</data>
+    </edge>
+    <edge source="ENSG00000119004" target="ENSG00000167740">
+      <data key="d2">0.448</data>
+    </edge>
+    <edge source="ENSG00000119004" target="ENSG00000144426">
+      <data key="d2">0.424</data>
+    </edge>
+    <edge source="ENSG00000119314" target="ENSG00000133226">
+      <data key="d2">0.461</data>
+    </edge>
+    <edge source="ENSG00000119397" target="ENSG00000138180">
+      <data key="d2">0.421</data>
+    </edge>
+    <edge source="ENSG00000119397" target="ENSG00000147010">
+      <data key="d2">0.427</data>
+    </edge>
+    <edge source="ENSG00000119397" target="ENSG00000121741">
+      <data key="d2">0.715</data>
+    </edge>
+    <edge source="ENSG00000119421" target="ENSG00000182154">
+      <data key="d2">0.416</data>
+    </edge>
+    <edge source="ENSG00000119421" target="ENSG00000244754">
+      <data key="d2">0.51</data>
+    </edge>
+    <edge source="ENSG00000119922" target="ENSG00000185885">
+      <data key="d2">0.738</data>
+    </edge>
+    <edge source="ENSG00000119922" target="ENSG00000185745">
+      <data key="d2">0.982</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000156876">
+      <data key="d2">0.405</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000129534">
+      <data key="d2">0.486</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000144554">
+      <data key="d2">0.494</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000151725">
+      <data key="d2">0.504</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000138182">
+      <data key="d2">0.536</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000138180">
+      <data key="d2">0.647</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000148773">
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000138778">
+      <data key="d2">0.724</data>
+    </edge>
+    <edge source="ENSG00000121152" target="ENSG00000137804">
+      <data key="d2">0.742</data>
+    </edge>
+    <edge source="ENSG00000121350" target="ENSG00000147679">
+      <data key="d2">0.437</data>
+    </edge>
+    <edge source="ENSG00000121741" target="ENSG00000133703">
+      <data key="d2">0.546</data>
+    </edge>
+    <edge source="ENSG00000121741" target="ENSG00000145743">
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="ENSG00000121749" target="ENSG00000134709">
+      <data key="d2">0.421</data>
+    </edge>
+    <edge source="ENSG00000122085" target="ENSG00000130305">
+      <data key="d2">0.572</data>
+    </edge>
+    <edge source="ENSG00000122085" target="ENSG00000182154">
+      <data key="d2">0.821</data>
+    </edge>
+    <edge source="ENSG00000122085" target="ENSG00000182768">
+      <data key="d2">0.516</data>
+    </edge>
+    <edge source="ENSG00000122218" target="ENSG00000172062">
+      <data key="d2">0.795</data>
+    </edge>
+    <edge source="ENSG00000122218" target="ENSG00000158623">
+      <data key="d2">0.996</data>
+    </edge>
+    <edge source="ENSG00000124225" target="ENSG00000171490">
+      <data key="d2">0.428</data>
+    </edge>
+    <edge source="ENSG00000124225" target="ENSG00000146416">
+      <data key="d2">0.448</data>
+    </edge>
+    <edge source="ENSG00000125633" target="ENSG00000153721">
+      <data key="d2">0.593</data>
+    </edge>
+    <edge source="ENSG00000125944" target="ENSG00000152601">
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="ENSG00000125944" target="ENSG00000133226">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000125944" target="ENSG00000205571">
+      <data key="d2">0.689</data>
+    </edge>
+    <edge source="ENSG00000125944" target="ENSG00000138385">
+      <data key="d2">0.788</data>
+    </edge>
+    <edge source="ENSG00000125944" target="ENSG00000172062">
+      <data key="d2">0.906</data>
+    </edge>
+    <edge source="ENSG00000126070" target="ENSG00000134627">
+      <data key="d2">0.466</data>
+    </edge>
+    <edge source="ENSG00000126070" target="ENSG00000276368">
+      <data key="d2">0.499</data>
+    </edge>
+    <edge source="ENSG00000126070" target="ENSG00000197903">
+      <data key="d2">0.524</data>
+    </edge>
+    <edge source="ENSG00000126070" target="ENSG00000198791">
+      <data key="d2">0.46</data>
+    </edge>
+    <edge source="ENSG00000126070" target="ENSG00000184678">
+      <data key="d2">0.544</data>
+    </edge>
+    <edge source="ENSG00000126070" target="ENSG00000204842">
+      <data key="d2">0.444</data>
+    </edge>
+    <edge source="ENSG00000128829" target="ENSG00000164163">
+      <data key="d2">0.503</data>
+    </edge>
+    <edge source="ENSG00000128829" target="ENSG00000143374">
+      <data key="d2">0.646</data>
+    </edge>
+    <edge source="ENSG00000128829" target="ENSG00000185745">
+      <data key="d2">0.908</data>
+    </edge>
+    <edge source="ENSG00000129003" target="ENSG00000132549">
+      <data key="d2">0.629</data>
+    </edge>
+    <edge source="ENSG00000129003" target="ENSG00000204842">
+      <data key="d2">0.515</data>
+    </edge>
+    <edge source="ENSG00000129480" target="ENSG00000143374">
+      <data key="d2">0.455</data>
+    </edge>
+    <edge source="ENSG00000129534" target="ENSG00000138778">
+      <data key="d2">0.709</data>
+    </edge>
+    <edge source="ENSG00000129534" target="ENSG00000151725">
+      <data key="d2">0.69</data>
+    </edge>
+    <edge source="ENSG00000129534" target="ENSG00000137804">
+      <data key="d2">0.412</data>
+    </edge>
+    <edge source="ENSG00000129534" target="ENSG00000138182">
+      <data key="d2">0.765</data>
+    </edge>
+    <edge source="ENSG00000130305" target="ENSG00000165271">
+      <data key="d2">0.51</data>
+    </edge>
+    <edge source="ENSG00000130305" target="ENSG00000171490">
+      <data key="d2">0.613</data>
+    </edge>
+    <edge source="ENSG00000132824" target="ENSG00000165406">
+      <data key="d2">0.485</data>
+    </edge>
+    <edge source="ENSG00000133114" target="ENSG00000196236">
+      <data key="d2">0.453</data>
+    </edge>
+    <edge source="ENSG00000133226" target="ENSG00000137656">
+      <data key="d2">0.833</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000138376">
+      <data key="d2">0.415</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000148700">
+      <data key="d2">0.415</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000146674">
+      <data key="d2">0.419</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000148737">
+      <data key="d2">0.428</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000182985">
+      <data key="d2">0.477</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000139514">
+      <data key="d2">0.516</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000134318">
+      <data key="d2">0.521</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000181555">
+      <data key="d2">0.534</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000180370">
+      <data key="d2">0.611</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000149311">
+      <data key="d2">0.718</data>
+    </edge>
+    <edge source="ENSG00000133703" target="ENSG00000139618">
+      <data key="d2">0.721</data>
+    </edge>
+    <edge source="ENSG00000134318" target="ENSG00000180370">
+      <data key="d2">0.506</data>
+    </edge>
+    <edge source="ENSG00000134318" target="ENSG00000138182">
+      <data key="d2">0.446</data>
+    </edge>
+    <edge source="ENSG00000134318" target="ENSG00000174373">
+      <data key="d2">0.456</data>
+    </edge>
+    <edge source="ENSG00000134318" target="ENSG00000139618">
+      <data key="d2">0.759</data>
+    </edge>
+    <edge source="ENSG00000134709" target="ENSG00000166971">
+      <data key="d2">0.994</data>
+    </edge>
+    <edge source="ENSG00000134744" target="ENSG00000198791">
+      <data key="d2">0.404</data>
+    </edge>
+    <edge source="ENSG00000135596" target="ENSG00000197535">
+      <data key="d2">0.459</data>
+    </edge>
+    <edge source="ENSG00000135968" target="ENSG00000164292">
+      <data key="d2">0.758</data>
+    </edge>
+    <edge source="ENSG00000137563" target="ENSG00000177000">
+      <data key="d2">0.597</data>
+    </edge>
+    <edge source="ENSG00000137574" target="ENSG00000187742">
+      <data key="d2">0.421</data>
+    </edge>
+    <edge source="ENSG00000137574" target="ENSG00000172062">
+      <data key="d2">0.532</data>
+    </edge>
+    <edge source="ENSG00000137574" target="ENSG00000137656">
+      <data key="d2">0.604</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000138376">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000138778">
+      <data key="d2">0.929</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000151725">
+      <data key="d2">0.698</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000144554">
+      <data key="d2">0.409</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000148773">
+      <data key="d2">0.943</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000138180">
+      <data key="d2">0.93</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000138182">
+      <data key="d2">0.583</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000139618">
+      <data key="d2">0.464</data>
+    </edge>
+    <edge source="ENSG00000137804" target="ENSG00000162063">
+      <data key="d2">0.872</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000138778">
+      <data key="d2">0.936</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000151725">
+      <data key="d2">0.608</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000148773">
+      <data key="d2">0.904</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000138182">
+      <data key="d2">0.515</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000162063">
+      <data key="d2">0.528</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000175455">
+      <data key="d2">0.61</data>
+    </edge>
+    <edge source="ENSG00000138180" target="ENSG00000139618">
+      <data key="d2">0.615</data>
+    </edge>
+    <edge source="ENSG00000138182" target="ENSG00000138778">
+      <data key="d2">0.95</data>
+    </edge>
+    <edge source="ENSG00000138182" target="ENSG00000151725">
+      <data key="d2">0.469</data>
+    </edge>
+    <edge source="ENSG00000138182" target="ENSG00000148773">
+      <data key="d2">0.541</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000163781">
+      <data key="d2">0.998</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000181544">
+      <data key="d2">0.405</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000176208">
+      <data key="d2">0.424</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000148773">
+      <data key="d2">0.434</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000276368">
+      <data key="d2">0.545</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000178966">
+      <data key="d2">0.664</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000178295">
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000144554">
+      <data key="d2">0.783</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000149311">
+      <data key="d2">0.946</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000197903">
+      <data key="d2">0.955</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000184678">
+      <data key="d2">0.978</data>
+    </edge>
+    <edge source="ENSG00000138376" target="ENSG00000139618">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000138385" target="ENSG00000152601">
+      <data key="d2">0.428</data>
+    </edge>
+    <edge source="ENSG00000138385" target="ENSG00000164163">
+      <data key="d2">0.426</data>
+    </edge>
+    <edge source="ENSG00000138385" target="ENSG00000171490">
+      <data key="d2">0.46</data>
+    </edge>
+    <edge source="ENSG00000138758" target="ENSG00000138778">
+      <data key="d2">0.605</data>
+    </edge>
+    <edge source="ENSG00000138758" target="ENSG00000147010">
+      <data key="d2">0.408</data>
+    </edge>
+    <edge source="ENSG00000138760" target="ENSG00000170017">
+      <data key="d2">0.551</data>
+    </edge>
+    <edge source="ENSG00000138760" target="ENSG00000158517">
+      <data key="d2">0.582</data>
+    </edge>
+    <edge source="ENSG00000138760" target="ENSG00000189403">
+      <data key="d2">0.595</data>
+    </edge>
+    <edge source="ENSG00000138760" target="ENSG00000205560">
+      <data key="d2">0.627</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000184678">
+      <data key="d2">0.401</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000162063">
+      <data key="d2">0.492</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000149311">
+      <data key="d2">0.519</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000156876">
+      <data key="d2">0.57</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000139618">
+      <data key="d2">0.571</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000151725">
+      <data key="d2">0.71</data>
+    </edge>
+    <edge source="ENSG00000138778" target="ENSG00000148773">
+      <data key="d2">0.921</data>
+    </edge>
+    <edge source="ENSG00000139146" target="ENSG00000155330">
+      <data key="d2">0.461</data>
+    </edge>
+    <edge source="ENSG00000139146" target="ENSG00000184678">
+      <data key="d2">0.422</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000163781">
+      <data key="d2">0.845</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000149311">
+      <data key="d2">0.995</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000144554">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000176208">
+      <data key="d2">0.633</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000178966">
+      <data key="d2">0.759</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000166596">
+      <data key="d2">0.755</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000197903">
+      <data key="d2">0.566</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000148773">
+      <data key="d2">0.558</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000184678">
+      <data key="d2">0.64</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000177000">
+      <data key="d2">0.408</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000178295">
+      <data key="d2">0.796</data>
+    </edge>
+    <edge source="ENSG00000139618" target="ENSG00000181544">
+      <data key="d2">0.91</data>
+    </edge>
+    <edge source="ENSG00000143499" target="ENSG00000185238">
+      <data key="d2">0.565</data>
+    </edge>
+    <edge source="ENSG00000143499" target="ENSG00000181555">
+      <data key="d2">0.673</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000163781">
+      <data key="d2">0.765</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000149311">
+      <data key="d2">0.989</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000185088">
+      <data key="d2">0.51</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000178295">
+      <data key="d2">0.646</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000178966">
+      <data key="d2">0.726</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000176208">
+      <data key="d2">0.787</data>
+    </edge>
+    <edge source="ENSG00000144554" target="ENSG00000181544">
+      <data key="d2">0.999</data>
+    </edge>
+    <edge source="ENSG00000144749" target="ENSG00000254726">
+      <data key="d2">0.505</data>
+    </edge>
+    <edge source="ENSG00000144749" target="ENSG00000147010">
+      <data key="d2">0.543</data>
+    </edge>
+    <edge source="ENSG00000147010" target="ENSG00000204842">
+      <data key="d2">0.676</data>
+    </edge>
+    <edge source="ENSG00000147133" target="ENSG00000149311">
+      <data key="d2">0.44</data>
+    </edge>
+    <edge source="ENSG00000147133" target="ENSG00000185658">
+      <data key="d2">0.457</data>
+    </edge>
+    <edge source="ENSG00000147133" target="ENSG00000184678">
+      <data key="d2">0.464</data>
+    </edge>
+    <edge source="ENSG00000147133" target="ENSG00000181555">
+      <data key="d2">0.436</data>
+    </edge>
+    <edge source="ENSG00000147133" target="ENSG00000276234">
+      <data key="d2">0.544</data>
+    </edge>
+    <edge source="ENSG00000147679" target="ENSG00000165271">
+      <data key="d2">0.732</data>
+    </edge>
+    <edge source="ENSG00000147679" target="ENSG00000184220">
+      <data key="d2">0.729</data>
+    </edge>
+    <edge source="ENSG00000147679" target="ENSG00000171490">
+      <data key="d2">0.84</data>
+    </edge>
+    <edge source="ENSG00000147853" target="ENSG00000170540">
+      <data key="d2">0.449</data>
+    </edge>
+    <edge source="ENSG00000147905" target="ENSG00000198677">
+      <data key="d2">0.654</data>
+    </edge>
+    <edge source="ENSG00000148737" target="ENSG00000276368">
+      <data key="d2">0.499</data>
+    </edge>
+    <edge source="ENSG00000148737" target="ENSG00000197903">
+      <data key="d2">0.499</data>
+    </edge>
+    <edge source="ENSG00000148737" target="ENSG00000184678">
+      <data key="d2">0.543</data>
+    </edge>
+    <edge source="ENSG00000148773" target="ENSG00000151725">
+      <data key="d2">0.507</data>
+    </edge>
+    <edge source="ENSG00000148773" target="ENSG00000162063">
+      <data key="d2">0.682</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000163781">
+      <data key="d2">0.954</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000166349">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000181544">
+      <data key="d2">0.411</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000176208">
+      <data key="d2">0.431</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000166266">
+      <data key="d2">0.501</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000162409">
+      <data key="d2">0.538</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000181555">
+      <data key="d2">0.643</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000197903">
+      <data key="d2">0.645</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000178966">
+      <data key="d2">0.724</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000178295">
+      <data key="d2">0.742</data>
+    </edge>
+    <edge source="ENSG00000149311" target="ENSG00000184678">
+      <data key="d2">0.745</data>
+    </edge>
+    <edge source="ENSG00000151338" target="ENSG00000158715">
+      <data key="d2">0.455</data>
+    </edge>
+    <edge source="ENSG00000151725" target="ENSG00000182552">
+      <data key="d2">0.452</data>
+    </edge>
+    <edge source="ENSG00000152332" target="ENSG00000184408">
+      <data key="d2">0.561</data>
+    </edge>
+    <edge source="ENSG00000152601" target="ENSG00000204842">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000152601" target="ENSG00000172062">
+      <data key="d2">0.418</data>
+    </edge>
+    <edge source="ENSG00000152601" target="ENSG00000205571">
+      <data key="d2">0.447</data>
+    </edge>
+    <edge source="ENSG00000154153" target="ENSG00000170540">
+      <data key="d2">0.509</data>
+    </edge>
+    <edge source="ENSG00000154153" target="ENSG00000168724">
+      <data key="d2">0.568</data>
+    </edge>
+    <edge source="ENSG00000154265" target="ENSG00000163832">
+      <data key="d2">0.81</data>
+    </edge>
+    <edge source="ENSG00000156103" target="ENSG00000173546">
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="ENSG00000156876" target="ENSG00000176208">
+      <data key="d2">0.408</data>
+    </edge>
+    <edge source="ENSG00000156876" target="ENSG00000162063">
+      <data key="d2">0.565</data>
+    </edge>
+    <edge source="ENSG00000156876" target="ENSG00000175455">
+      <data key="d2">0.678</data>
+    </edge>
+    <edge source="ENSG00000156876" target="ENSG00000166004">
+      <data key="d2">0.831</data>
+    </edge>
+    <edge source="ENSG00000159063" target="ENSG00000253710">
+      <data key="d2">0.761</data>
+    </edge>
+    <edge source="ENSG00000160401" target="ENSG00000166596">
+      <data key="d2">0.417</data>
+    </edge>
+    <edge source="ENSG00000160551" target="ENSG00000197535">
+      <data key="d2">0.507</data>
+    </edge>
+    <edge source="ENSG00000162063" target="ENSG00000204842">
+      <data key="d2">0.559</data>
+    </edge>
+    <edge source="ENSG00000162601" target="ENSG00000173692">
+      <data key="d2">0.664</data>
+    </edge>
+    <edge source="ENSG00000162601" target="ENSG00000276368">
+      <data key="d2">0.575</data>
+    </edge>
+    <edge source="ENSG00000162601" target="ENSG00000185658">
+      <data key="d2">0.43</data>
+    </edge>
+    <edge source="ENSG00000162601" target="ENSG00000197903">
+      <data key="d2">0.539</data>
+    </edge>
+    <edge source="ENSG00000162601" target="ENSG00000184678">
+      <data key="d2">0.547</data>
+    </edge>
+    <edge source="ENSG00000162601" target="ENSG00000170242">
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="ENSG00000162641" target="ENSG00000170540">
+      <data key="d2">0.642</data>
+    </edge>
+    <edge source="ENSG00000162641" target="ENSG00000185088">
+      <data key="d2">0.905</data>
+    </edge>
+    <edge source="ENSG00000162641" target="ENSG00000215717">
+      <data key="d2">0.455</data>
+    </edge>
+    <edge source="ENSG00000162641" target="ENSG00000198677">
+      <data key="d2">0.402</data>
+    </edge>
+    <edge source="ENSG00000162641" target="ENSG00000171490">
+      <data key="d2">0.599</data>
+    </edge>
+    <edge source="ENSG00000162641" target="ENSG00000174891">
+      <data key="d2">0.902</data>
+    </edge>
+    <edge source="ENSG00000163781" target="ENSG00000178295">
+      <data key="d2">0.555</data>
+    </edge>
+    <edge source="ENSG00000163781" target="ENSG00000176208">
+      <data key="d2">0.672</data>
+    </edge>
+    <edge source="ENSG00000163781" target="ENSG00000178966">
+      <data key="d2">0.859</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000204842">
+      <data key="d2">0.426</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000165271">
+      <data key="d2">0.433</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000185088">
+      <data key="d2">0.611</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000170540">
+      <data key="d2">0.616</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000173692">
+      <data key="d2">0.649</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000198677">
+      <data key="d2">0.663</data>
+    </edge>
+    <edge source="ENSG00000164163" target="ENSG00000174891">
+      <data key="d2">0.684</data>
+    </edge>
+    <edge source="ENSG00000164292" target="ENSG00000184939">
+      <data key="d2">0.493</data>
+    </edge>
+    <edge source="ENSG00000164506" target="ENSG00000197535">
+      <data key="d2">0.466</data>
+    </edge>
+    <edge source="ENSG00000165271" target="ENSG00000184220">
+      <data key="d2">0.46</data>
+    </edge>
+    <edge source="ENSG00000165271" target="ENSG00000174891">
+      <data key="d2">0.545</data>
+    </edge>
+    <edge source="ENSG00000165271" target="ENSG00000170540">
+      <data key="d2">0.776</data>
+    </edge>
+    <edge source="ENSG00000165271" target="ENSG00000185088">
+      <data key="d2">0.863</data>
+    </edge>
+    <edge source="ENSG00000165271" target="ENSG00000171490">
+      <data key="d2">0.996</data>
+    </edge>
+    <edge source="ENSG00000166004" target="ENSG00000175455">
+      <data key="d2">0.735</data>
+    </edge>
+    <edge source="ENSG00000166266" target="ENSG00000170242">
+      <data key="d2">0.57</data>
+    </edge>
+    <edge source="ENSG00000166333" target="ENSG00000184408">
+      <data key="d2">0.437</data>
+    </edge>
+    <edge source="ENSG00000166349" target="ENSG00000185658">
+      <data key="d2">0.539</data>
+    </edge>
+    <edge source="ENSG00000166349" target="ENSG00000184678">
+      <data key="d2">0.585</data>
+    </edge>
+    <edge source="ENSG00000166349" target="ENSG00000189403">
+      <data key="d2">0.887</data>
+    </edge>
+    <edge source="ENSG00000166596" target="ENSG00000188817">
+      <data key="d2">0.42</data>
+    </edge>
+    <edge source="ENSG00000168135" target="ENSG00000213977">
+      <data key="d2">0.748</data>
+    </edge>
+    <edge source="ENSG00000168135" target="ENSG00000184408">
+      <data key="d2">0.602</data>
+    </edge>
+    <edge source="ENSG00000168916" target="ENSG00000272325">
+      <data key="d2">0.583</data>
+    </edge>
+    <edge source="ENSG00000170540" target="ENSG00000182154">
+      <data key="d2">0.527</data>
+    </edge>
+    <edge source="ENSG00000170540" target="ENSG00000171490">
+      <data key="d2">0.54</data>
+    </edge>
+    <edge source="ENSG00000170540" target="ENSG00000174891">
+      <data key="d2">0.638</data>
+    </edge>
+    <edge source="ENSG00000170540" target="ENSG00000185088">
+      <data key="d2">0.903</data>
+    </edge>
+    <edge source="ENSG00000171490" target="ENSG00000185088">
+      <data key="d2">0.492</data>
+    </edge>
+    <edge source="ENSG00000171490" target="ENSG00000185238">
+      <data key="d2">0.437</data>
+    </edge>
+    <edge source="ENSG00000171490" target="ENSG00000184220">
+      <data key="d2">0.562</data>
+    </edge>
+    <edge source="ENSG00000171490" target="ENSG00000174891">
+      <data key="d2">0.663</data>
+    </edge>
+    <edge source="ENSG00000172062" target="ENSG00000183474">
+      <data key="d2">0.474</data>
+    </edge>
+    <edge source="ENSG00000172062" target="ENSG00000204842">
+      <data key="d2">0.484</data>
+    </edge>
+    <edge source="ENSG00000172062" target="ENSG00000205571">
+      <data key="d2">0.98</data>
+    </edge>
+    <edge source="ENSG00000173692" target="ENSG00000180370">
+      <data key="d2">0.501</data>
+    </edge>
+    <edge source="ENSG00000174373" target="ENSG00000180370">
+      <data key="d2">0.413</data>
+    </edge>
+    <edge source="ENSG00000174373" target="ENSG00000204406">
+      <data key="d2">0.402</data>
+    </edge>
+    <edge source="ENSG00000174891" target="ENSG00000185088">
+      <data key="d2">0.855</data>
+    </edge>
+    <edge source="ENSG00000174891" target="ENSG00000198677">
+      <data key="d2">0.508</data>
+    </edge>
+    <edge source="ENSG00000175455" target="ENSG00000178295">
+      <data key="d2">0.509</data>
+    </edge>
+    <edge source="ENSG00000176208" target="ENSG00000178295">
+      <data key="d2">0.597</data>
+    </edge>
+    <edge source="ENSG00000178295" target="ENSG00000178966">
+      <data key="d2">0.883</data>
+    </edge>
+    <edge source="ENSG00000181555" target="ENSG00000185238">
+      <data key="d2">0.447</data>
+    </edge>
+    <edge source="ENSG00000181555" target="ENSG00000197903">
+      <data key="d2">0.448</data>
+    </edge>
+    <edge source="ENSG00000181555" target="ENSG00000184678">
+      <data key="d2">0.924</data>
+    </edge>
+    <edge source="ENSG00000181555" target="ENSG00000184939">
+      <data key="d2">0.403</data>
+    </edge>
+    <edge source="ENSG00000181626" target="ENSG00000182552">
+      <data key="d2">0.453</data>
+    </edge>
+    <edge source="ENSG00000182154" target="ENSG00000251201">
+      <data key="d2">0.534</data>
+    </edge>
+    <edge source="ENSG00000183474" target="ENSG00000205571">
+      <data key="d2">0.479</data>
+    </edge>
+    <edge source="ENSG00000184408" target="ENSG00000185088">
+      <data key="d2">0.504</data>
+    </edge>
+    <edge source="ENSG00000184678" target="ENSG00000276368">
+      <data key="d2">0.817</data>
+    </edge>
+    <edge source="ENSG00000184678" target="ENSG00000197903">
+      <data key="d2">0.929</data>
+    </edge>
+    <edge source="ENSG00000184678" target="ENSG00000276234">
+      <data key="d2">0.487</data>
+    </edge>
+    <edge source="ENSG00000184678" target="ENSG00000198363">
+      <data key="d2">0.526</data>
+    </edge>
+    <edge source="ENSG00000185630" target="ENSG00000197757">
+      <data key="d2">0.498</data>
+    </edge>
+    <edge source="ENSG00000185630" target="ENSG00000253293">
+      <data key="d2">0.867</data>
+    </edge>
+    <edge source="ENSG00000185658" target="ENSG00000188994">
+      <data key="d2">0.41</data>
+    </edge>
+    <edge source="ENSG00000185745" target="ENSG00000185885">
+      <data key="d2">0.877</data>
+    </edge>
+    <edge source="ENSG00000187514" target="ENSG00000189403">
+      <data key="d2">0.701</data>
+    </edge>
+    <edge source="ENSG00000197757" target="ENSG00000253293">
+      <data key="d2">0.407</data>
+    </edge>
+    <edge source="ENSG00000197903" target="ENSG00000276368">
+      <data key="d2">0.968</data>
+    </edge>
+    <edge source="ENSG00000198677" target="ENSG00000253710">
+      <data key="d2">0.405</data>
+    </edge>
+    <edge source="ENSG00000204406" target="ENSG00000276368">
+      <data key="d2">0.453</data>
+    </edge>
+    <edge source="ENSG00000204842" target="ENSG00000205571">
+      <data key="d2">0.507</data>
+    </edge>
+    <edge source="ENSG00000223953" target="ENSG00000235718">
+      <data key="d2">0.895</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,21 @@
+{
+  "soft_power_used": 14,
+  "r2_at_power_14": 0.799,
+  "network_type": "signed hybrid",
+  "merge_cut_height": 0.2,
+  "min_module_size": 20,
+  "deep_split": 3,
+  "n_modules_detected": 5,
+  "module_size_distribution": {
+    "dimgrey": 8768,
+    "mistyrose": 570,
+    "indianred": 323,
+    "rosybrown": 263,
+    "salmon": 76
+  },
+  "snhg14_module": "dimgrey",
+  "largest_module_pct": 87.68,
+  "largest_module_too_dominant": true,
+  "n_modules_under_100_genes": 1,
+  "n_modules_over_500_genes": 2
+}

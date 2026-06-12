@@ -1,0 +1,19 @@
+{
+  "n_frontal_cortex_samples": 269,
+  "n_genes_before_expression_filter": 74628,
+  "n_genes_after_expression_filter": 27194,
+  "n_genes_after_mad_filter": 5000,
+  "mad_threshold_value": 0.38277292251586914,
+  "snhg14_force_included": false,
+  "soft_power_selected": 20,
+  "r2_at_selected_power": 0.7141535918612436,
+  "n_modules_detected": 4,
+  "module_size_distribution": {
+    "black": 3961,
+    "gainsboro": 788,
+    "dimgrey": 160,
+    "darkgrey": 91
+  },
+  "snhg14_present": true,
+  "snhg14_module": "gainsboro"
+}
