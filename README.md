@@ -1,15 +1,15 @@
 # Genetic Expression Analysis
-### Segal Lab Collaboration — UC Davis
+### Segal Lab Collaboration: UC Davis
 
-A computational genomics study conducted in collaboration with the **Segal Lab at UC Davis (Dr. David Segal)**, investigating the off-target safety profile of engineered gene regulators designed to suppress **SNHG14**, a long non-coding RNA implicated in neurological disease. The project integrates RNA-seq expression data, dimensionality reduction, bootstrapped machine learning, and publicly available disease association databases to rank candidate treatments by their SNHG14 knockdown efficacy relative to off-target transcriptional disruption.
+A computational genomics study conducted in collaboration with the **Segal Lab at UC Davis**, investigating the off-target safety profile of engineered gene regulators designed to suppress **SNHG14**, a long non-coding RNA implicated in Angelman syndorme. The project integrates RNA-seq expression data, dimensionality reduction, bootstrapped machine learning, and publicly available disease association databases to rank candidate treatments by their SNHG14 knockdown efficacy relative to off-target transcriptional disruption.
 
 ---
 
 ## Research Context
 
-The Segal Lab develops engineered transcription factors — including **Artificial Transcription Factors (hATFs)** and **Zinc Finger proteins (nZFs)** — capable of targeting and silencing specific genomic loci. This study evaluates a panel of 22 such regulators in a human cell line, all designed to suppress SNHG14. The central question is: *which candidates most effectively reduce SNHG14 expression while minimizing collateral disruption to the rest of the transcriptome?*
+The Segal Lab develops engineered transcription factors, including **Artificial Transcription Factors (hATFs)** and **Zinc Finger proteins (nZFs)**, capable of targeting and silencing specific genes. This study evaluates a panel of 22 such regulators in a human cell, all designed to suppress SNHG14. The central question is: *which candidates most effectively reduce SNHG14 expression while minimizing off-target effects?*
 
-To answer this, the pipeline characterizes each treatment's expression signature across ~79,000 transcripts (CPM-normalized RNA-seq), identifies a Pareto-optimal frontier balancing knockdown strength against transcriptome-wide perturbation, and then performs a multi-layer risk assessment of those finalists using clinical disease association evidence from Open Targets.
+To answer this, the pipeline characterizes each treatment's expression signature across ~79,000 transcripts (CPM-normalized RNA-seq), identifies a Pareto-optimal frontier balancing strength against off-target disruptions, and then performs a multi-layer risk assessment of those selected treatments using clinical disease association evidence from Open Targets.
 
 ---
 
@@ -45,7 +45,7 @@ Initial exploration of the expression matrix: sample-level summaries, gene bioty
 ### Dimensionality Reduction & Treatment Ranking
 
 **`PCA_Analysis.ipynb`** *(Tony)*
-Runs PCA on standardized gene expression values and produces biplots of the first two principal components to visualize separation between treatments and control. Computes log2 fold change of SNHG14 per treatment to rank knockdown effectiveness, and Euclidean distance from each treatment centroid to the control centroid in PCA space as a proxy for transcriptome-wide safety. Combines both metrics into a **Pareto optimality scatter plot** to identify the four candidates — `hATF567`, `hATF561`, `nZF105`, `nZF139` — that best balance target knockdown with minimal off-target disruption. Outputs `data/pca_summary.csv` used by all downstream analyses.
+Runs PCA on standardized gene expression values and produces biplots of the first two principal components to visualize separation between treatments and control. Computes log2 fold change of SNHG14 per treatment to rank effectiveness, and Euclidean distance from each treatment centroid to the control centroid in PCA space as a proxy for transcriptome-wide safety. Combines both metrics into a **Pareto optimality scatter plot** to identify the four candidates: `hATF567`, `hATF561`, `nZF105`, `nZF139` that best balance target knockdown with minimal off-target disruption. Outputs `data/pca_summary.csv` used by all downstream analyses.
 
 **`multi_dim_PCA.ipynb`**
 Extended PCA exploration across additional principal components.
@@ -54,22 +54,22 @@ Extended PCA exploration across additional principal components.
 
 ### Disease Association Analysis
 
-**`opentargets_analysis.ipynb`** *(Kai Barker)*
-Loads the disease association table from `data/disease_associations.parquet` and characterizes the therapeutic area footprint of each Pareto-optimal treatment. For each candidate, identifies genes with |log2FC| ≥ 1.0 relative to control, joins them to Open Targets associations, and aggregates disease impact by therapeutic area. Produces an interactive heatmap (raw counts and normalized %) of off-target therapeutic area disruption across the four finalists. Each treatment disturbs 25–64 genes at this threshold, touching 20–24 distinct therapeutic areas.
+**`opentargets_analysis.ipynb`** *(Kai)*
+Loads the disease association table from `data/disease_associations.parquet` and characterizes the therapeutic area footprint of each Pareto-optimal treatment. For each candidate, identifies genes with |log2FC| >= 1.0 relative to control, joins them to Open Targets associations, and aggregates disease impact by therapeutic area. Produces an interactive heatmap (raw counts and normalized %) of off-target therapeutic area disruption across the four finalists. Each treatment disturbs 25–64 genes at this threshold, touching 20–24 distinct therapeutic areas.
 
 ---
 
 ### Bootstrapped Classifier & Risk Scoring
 
-**`NSC_risk_analysis.ipynb`** *(Kai Barker)*
-Core risk characterization notebook, executed on a Google Cloud Dataproc cluster. Runs **Nearest Shrunken Centroid (NSC) bootstrap stability analysis** across 1,800 Spark-parallelized model fits (50 bootstrap replicates × 6 shrinkage thresholds) to identify genes that reliably distinguish Pareto-optimal treatments from control. A permutation null (100 shuffles per threshold) validates statistical significance. Threshold refinement between 2.0 and 2.5 at 0.1 increments identifies the most stringent statistically significant cutoff (p < 0.001).
+**`NSC_risk_analysis.ipynb`** *(Kai)*
+Core risk characterization notebook, executed on a Google Cloud Dataproc cluster. Runs **Nearest Shrunken Centroid (NSC) bootstrap stability analysis** across 1,800 Spark-parallelized model fits (50 bootstrap replicates across 6 shrinkage thresholds) to identify genes that reliably distinguish Pareto-optimal treatments from control. A permutation null (100 shuffles per threshold) validates statistical significance. Threshold refinement between 2.0 and 2.5 at 0.1 increments identifies the most stringent statistically significant cutoff (p < 0.001).
 
 Three gene tiers are defined by stability across thresholds:
-- **7-gene most-robust set**: 100% bootstrap stability across all thresholds ≤ 2.5
-- **22-gene primary set**: ≥ 50% stability at threshold 2.4
+- **7-gene most-robust set**: 100% bootstrap stability across all thresholds <= 2.5
+- **22-gene primary set**: >= 50% stability at threshold 2.4
 - **1,484-gene broad signature**: 100% stability at threshold 0.5
 
-Disease associations are mapped onto each tier and a **composite off-target risk score** is computed per treatment (disturbed gene count, evidence-weighted burden, high-confidence perturbations, therapeutic areas touched). Burden is then decomposed into shared (NSC-selected) vs. treatment-specific components to identify the safest Pareto-optimal candidate. `hATF561` emerges as the lowest-risk treatment with 25 disturbed genes and the smallest evidence-weighted burden.
+Disease associations are mapped onto each tier and a **composite off-target risk score** is computed per treatment (disturbed gene count, evidence-weighted burden, high-confidence disruptions, therapeutic areas touched). Burden is then decomposed into shared (NSC-selected) vs. treatment-specific components to identify the safest Pareto-optimal candidate. `hATF561` emerges as the lowest-risk treatment with 25 disturbed genes and the smallest evidence-weighted burden.
 
 ---
 
@@ -115,20 +115,11 @@ All computationally intensive analyses were executed on **Google Cloud Platform*
 
 ---
 
-## Key Findings
-
-- Four treatments (`hATF567`, `hATF561`, `nZF105`, `nZF139`) form a Pareto frontier balancing SNHG14 knockdown against transcriptome-wide disruption.
-- NSC bootstrap analysis identifies a 7-gene most-robust signature and a 1,484-gene broad signature consistently selected across treatments.
-- **`hATF561`** carries the lowest composite off-target risk: fewest disturbed genes (25), lowest evidence-weighted disease burden (43.6), and no high-confidence perturbations.
-- Open Targets enrichment reveals that off-target disrupted genes implicate nervous system disease, cancer, and musculoskeletal disease pathways across all finalists.
-
----
 
 ## Contributors
 
 | Contributor | Affiliation | Contributions |
 |---|---|---|
-| **Kai Barker** | UC Davis | `load_data.py`, `opentargets_analysis.ipynb`, `NSC_risk_analysis.ipynb` |
-| **Tony** | UC Davis / Segal Lab | `generate_sample_by_gene.py`, `PCA_Analysis.ipynb`, CPM matrix |
-| **Lucas** | UC Davis / Segal Lab | `Lucas_PPI/`, `Lucas_WGCNA/` |
-| **Dr. David Segal** | Segal Lab, UC Davis | Principal Investigator |
+| **Kai Barker** | UC Santa Barbara | `load_data.py`, `opentargets_analysis.ipynb`, `NSC_risk_analysis.ipynb` |
+| **Tony Segal** | UC Santa Barbara | `load_data.py`, `generate_sample_by_gene.py`, `PCA_Analysis.ipynb` |
+| **Lucas Childs** | UC Santa Barbara | `Lucas_PPI/`, `Lucas_WGCNA/`
