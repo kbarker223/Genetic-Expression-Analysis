@@ -1,0 +1,26 @@
+{
+  "soft_power_used": 14,
+  "r2_at_power_14": 0.799,
+  "network_type": "signed hybrid",
+  "merge_cut_height": 0.2,
+  "min_module_size": 20,
+  "deep_split": 4,
+  "n_modules_detected": 10,
+  "module_size_distribution": {
+    "turquoise": 6853,
+    "grey": 1397,
+    "blue": 444,
+    "brown": 406,
+    "yellow": 343,
+    "green": 223,
+    "red": 153,
+    "black": 115,
+    "pink": 34,
+    "magenta": 32
+  },
+  "snhg14_module": "grey",
+  "largest_module_pct": 68.53,
+  "largest_module_too_dominant": true,
+  "n_modules_under_100_genes": 2,
+  "n_modules_over_500_genes": 2
+}
