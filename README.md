@@ -9,7 +9,7 @@ A computational genomics study conducted in collaboration with the **Segal Lab a
 
 The Segal Lab develops engineered transcription factors, including **Artificial Transcription Factors (hATFs)** and **Zinc Finger proteins (ZFPs)**, capable of targeting and silencing specific genes. This study evaluates a panel of 22 such regulators in a human cell, all designed to suppress SNHG14. The central question is: *which candidates most effectively reduce SNHG14 expression while minimizing off-target effects?*
 
-To answer this, the pipeline characterizes each treatment's expression signature across ~79,000 transcripts (CPM-normalized RNA-seq), identifies a Pareto-optimal frontier balancing strength against off-target disruptions, and then performs a multi-layer risk assessment of those selected treatments using clinical disease association evidence from Open Targets.
+To answer this, the pipeline characterizes each treatment's expression signature across ~79,000 transcripts (CPM-normalized RNA-seq), identifies a Pareto-optimal frontier balancing strength against off-target disruptions, and then performs a multi-layer risk assessment of those selected treatments.
 
 ---
 
